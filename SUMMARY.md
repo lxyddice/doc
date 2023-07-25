@@ -8,6 +8,7 @@
 
 ## 😃 lxycraft
 
+* [介绍](lxycraft/jie-shao.md)
 * [安装MINECRAFT并进入游戏](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi/README.md)
   * [使用JAVA版](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi/shi-yong-java-ban.md)
   * [使用基岩版](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi/shi-yong-ji-yan-ban.md)
