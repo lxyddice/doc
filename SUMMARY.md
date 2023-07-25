@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
+* [你好QAQ](README.md)
 
 ## lxy\_dingbot
 
