@@ -7,7 +7,7 @@
 * [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
   * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
-## 😃 lxycraft
+## 😢 lxycraft
 
 * [介绍](lxycraft/jie-shao.md)
 * [安装MINECRAFT并进入游戏-BeefWine](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi-beefwine/README.md)
