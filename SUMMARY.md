@@ -20,3 +20,7 @@
   * [精锻系统-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/jing-duan-xi-tong-lxyddice.md)
   * [皮肤教程-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/pi-fu-jiao-cheng-lxyddice.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang.md)
+
+## ArknightR
+
+* [index](arknightr/index.md)
