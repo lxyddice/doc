@@ -13,6 +13,7 @@
 * [安装MINECRAFT并进入游戏-BeefWine](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi-beefwine/README.md)
   * [使用JAVA版](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi-beefwine/shi-yong-java-ban.md)
   * [使用基岩版](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi-beefwine/shi-yong-ji-yan-ban.md)
+  * [苹果系统基岩版-icefish](lxycraft/an-zhuang-minecraft-bing-jin-ru-you-xi-beefwine/ping-guo-xi-tong-ji-yan-ban-icefish.md)
 * [服务器常用指令与各个菜单](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/README.md)
   * [主菜单-BeefWine](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/zhu-cai-dan-beefwine.md)
   * [主菜单-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/zhu-cai-dan-lxyddice.md)
