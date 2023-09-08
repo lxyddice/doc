@@ -1,6 +1,6 @@
 # 精锻系统-lxyddice
 
-!(1)\[11]
+(前往新版教程)\[/xin-ban-lxyddice]
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
