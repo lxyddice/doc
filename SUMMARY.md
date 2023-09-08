@@ -22,7 +22,7 @@
     * [新版-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/jing-duan-xi-tong-lxyddice/xin-ban-lxyddice.md)
   * [皮肤教程-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/pi-fu-jiao-cheng-lxyddice.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
-  * [外置验证失败](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng-shi-bai.md)
+  * [外置验证（测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
 
 ## ArknightR
 
