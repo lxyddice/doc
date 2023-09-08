@@ -20,7 +20,8 @@
   * [PVP模式-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/pvp-mo-shi-lxyddice.md)
   * [精锻系统-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/jing-duan-xi-tong-lxyddice.md)
   * [皮肤教程-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/pi-fu-jiao-cheng-lxyddice.md)
-* [注意事项](lxycraft/zhu-yi-shi-xiang.md)
+* [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
+  * [外置验证失败](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng-shi-bai.md)
 
 ## ArknightR
 
