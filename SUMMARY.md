@@ -9,6 +9,8 @@
   * [自带命令](dingraia\_php/dingraia\_php/zi-dai-ming-ling.md)
   * [配置机器人](dingraia\_php/dingraia\_php/pei-zhi-ji-qi-ren.md)
   * [发送使用webhook的普通消息](dingraia\_php/dingraia\_php/fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md)
+  * [发送内部群消息](dingraia\_php/dingraia\_php/fa-song-nei-bu-qun-xiao-xi.md)
+  * [自定义函数和小工具](dingraia\_php/dingraia\_php/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
 * [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
   * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
