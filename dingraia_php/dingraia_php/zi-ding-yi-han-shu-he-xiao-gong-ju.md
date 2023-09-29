@@ -219,3 +219,128 @@ $res = requests("POST", "https://api.lxyddice.top/api/gk", $data)['code'];//返�
 requests(请求方法, url, 请求体, 请求头, 超时时间);
 ```
 
+#### 格式化ymd时间
+
+```php
+parseCustomTimeFormat('30i15s');//1815
+```
+
+y：年  m：月  d：日  h：小时  i：分钟  s：秒
+
+#### 格式化时间到ymd
+
+```php
+formatTimeFromSeconds('100');//1i40s
+```
+
+y：年  m：月  d：日  h：小时  i：分钟  s：秒
+
+#### 数据库以![](<../../.gitbook/assets/image (1).png>)查询用户数据
+
+<mark style="color:yellow;">警告！该方法为用户注册api，也就是传入userid不在库中会自动注册！所以不要随意调用传数据！</mark>
+
+<mark style="color:yellow;">wuid为另一框架的uid，不需要动他</mark>
+
+```php
+userid2uid(userid);
+```
+
+返回数据为
+
+```php
+$arr = array(
+    'userid' => $userid,
+    'uid' => $uid,
+    'wuid' => $wuid,
+    'staffid' => $staffid,
+    'name' => $name,
+    'money' => $money,
+    'ban' => $ban
+);
+```
+
+#### 数据库以uid（10001）查询用户信息
+
+```php
+uid2userinfo(uid);
+```
+
+返回数据为
+
+```php
+$arr = array(
+    'userid' => $userid,
+    'uid' => $uid,
+    'wuid' => $wuid,
+    'staffid' => $staffid,
+    'name' => $name,
+    'money' => $money,
+    'ban' => $ban
+);
+```
+
+#### 数据库以staffid查询用户信息
+
+```php
+staffid2userinfo(staffid);
+```
+
+返回数据为
+
+```php
+$arr = array(
+    'userid' => $userid,
+    'uid' => $uid,
+    'wuid' => $wuid,
+    'staffid' => $staffid,
+    'name' => $name,
+    'money' => $money,
+    'ban' => $ban
+);
+```
+
+#### 向文件写入数据
+
+当内容为php字典时会转换为json
+
+```php
+write_to_file_json(文件位置, 内容);
+```
+
+读取json转为php字典
+
+```php
+read_file_to_array(文件位置);
+```
+
+#### 日志系统
+
+```php
+$logid = tool_log(1, 'bot run');//返回日志id
+```
+
+```php
+tool_log(等级, 内容);
+```
+
+等级为
+
+* 1：Debug
+* 2：Info
+* 3：Warn
+* 4：Error
+* 5：Fatal
+
+#### 获取ogg文件时长毫秒
+
+需要getid3扩展
+
+```php
+getOGGDurationInMilliseconds(文件位置);
+```
+
+#### 检查群权限
+
+```php
+check_group_permission(群id, 权限名);
+```

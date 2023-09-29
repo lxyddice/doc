@@ -4,7 +4,7 @@
 
 输入/cd 选择钻石剑
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 |   |   | 确定 |   |   |   | 取消 |   |   |
 | - | - | -- | - | - | - | -- | - | - |
@@ -13,7 +13,7 @@
 
 警告：在切换用户组
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 后请把物品放进末影箱，pvp模式会清包！
 
