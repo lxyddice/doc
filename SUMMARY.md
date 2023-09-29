@@ -2,10 +2,13 @@
 
 * [你好QAQ](README.md)
 
-## 🥰 lxy\_dingbot
+## 🥰 Dingraia\_php
 
-* [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
-  * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
+* [Dingraia\_php](dingraia\_php/dingraia\_php/README.md)
+  * [使用前工作与安装](dingraia\_php/dingraia\_php/shi-yong-qian-gong-zuo-yu-an-zhuang.md)
+  * [自带命令](dingraia\_php/dingraia\_php/zi-dai-ming-ling.md)
+* [冰晶·钉钉机器人开放API](dingraia\_php/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
+  * [插件](dingraia\_php/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
 ## 😃 lxycraft
 
