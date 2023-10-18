@@ -344,3 +344,9 @@ getOGGDurationInMilliseconds(文件位置);
 ```php
 check_group_permission(群id, 权限名);
 ```
+
+#### uuid
+
+```php
+uuid();
+```
