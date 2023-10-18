@@ -36,7 +36,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，但是�
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-也就是当群u点击卡片的“用户帮助”时，钉钉服务器会向我们服务器post一段回传请求，包含了一段json为"content":{"bot\_help\_v1":"userhelp"}，我们就能知道群u点了什么东西
+也就是当群u点击卡片的“用户帮助”时，钉钉服务器会向我们回调路由（后面有讲）post一段回传请求，包含了一段json为"content":{"bot\_help\_v1":"userhelp"}，我们就能知道群u点了什么东西
 
 #### 跳转链接
 
@@ -91,4 +91,56 @@ cardParamMap是指文本类型变量替换，多媒体类型自己看钉钉文�
 
 注册回调路由：请自行完成
 
-[https://open.dingtalk.com/document/orgapp/registration-card-interaction-callback-address-1](https://open.dingtalk.com/document/orgapp/registration-card-interaction-callback-address-1)
+{% embed url="https://open.dingtalk.com/document/orgapp/registration-card-interaction-callback-address-1" %}
+
+## 更新卡片
+
+我们接收到了回调来的数据，可以用更新卡片来对群u作出回应。如图所示：
+
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+点击“用户帮助”
+
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+为了区分普通消息与卡片回调，框架内代码做了切割。
+
+正常来说，前面的  if ($globalmessage == "/114514")  就是普通消息，区分方法为
+
+```php
+if ($bot_run_as['chat_mode'] == 'card_callback') {
+    $cropidkey = read_file_to_array("config/cropid.json")[$chatbotCorpId];
+    $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
+    $content = $bot_run_as['content']['cardPrivateData']['params']; //提取用户选择，防止变量冲突的话可以改改
+    //下面是处理方法
+    if ($content['同意'] == 1) {
+        $res = update_interactiveCards($token,$bot_run_as['outTrackId'], ["cardParamMap"=>["title"=>"# 原神，启动！","text"=>"你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作「提瓦特」的幻想世界，在这里，被神选中的人将被授予「神之眼」，导引元素之力。你将扮演一位名为「旅行者」的神秘角色，在自由的旅行中邂逅性格各异、能力独特的同伴们，和他们一起击败强敌，找回失散的亲人——同时，逐步发掘「原神」的真相。"]]);
+    } else {
+        $res = update_interactiveCards($token,$bot_run_as['outTrackId'], ["cardParamMap"=>["title"=>"# 原神怎么你了","text"=>"差不多得了😅屁大点事都要拐上原神，原神一没招你惹你，二没干伤天害理的事情，到底怎么你了让你一直无脑抹黑，米哈游每天费尽心思的文化输出弘扬中国文化，你这种喷子只会在网上敲键盘诋毁良心公司，中国游戏的未来就是被你这种人毁掉的😅"]]);
+    }
+}
+```
+
+```php
+update_interactiveCards($token,卡片唯一id，即上文$cid, 卡片更新后变量值);
+```
+
+卡片唯一id可以用  $bot\_run\_as\['outTrackId']  得到，除非你想更新别的卡片
+
+cardParamMap与上面发送的语法相同
+
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>点击“启动原神”，服务器收到了$content['同意'] == 1</p></figcaption></figure>
+
+```php
+if ($content['bot_help_v1'] == 'userhelp') {
+    update_interactiveCards($token,$bot_run_as['outTrackId'], ["cardParamMap"=>["1"=>"/me  个人信息\n/uid <uid>  根据uid查询信息\n/found <word>  根据关键词查询名字\n/api  获取apikey（私聊使用）"]]);
+} 
+```
+
+👆原理相同
+
+## 卡片回调模式下取得参数
+
+```php
+$bot_run_as['userId'] = $c['userId'];$bot_run_as['userId'] = $c[',$bot_run_as['userId'] = $c['userId'];'];
+```
