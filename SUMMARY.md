@@ -10,6 +10,7 @@
   * [配置机器人](dingraia\_php/dingraia\_php/pei-zhi-ji-qi-ren.md)
   * [发送使用webhook的普通消息](dingraia\_php/dingraia\_php/fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md)
   * [发送内部群消息](dingraia\_php/dingraia\_php/fa-song-nei-bu-qun-xiao-xi.md)
+  * [可交互卡片消息](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian-xiao-xi.md)
   * [自定义函数和小工具](dingraia\_php/dingraia\_php/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
   * [EULA和版本](dingraia\_php/dingraia\_php/eula-he-ban-ben.md)
 * [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)

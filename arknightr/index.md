@@ -22,7 +22,7 @@ description: 这是备份
 
 我该怎么找到模拟器？
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 找到ArknightR+日期格式的文件，这就是模拟器的压缩包，解压即可获得模拟器（当然，模拟器也是有手机版的，就是apk的）
 
@@ -32,7 +32,7 @@ description: 这是备份
 
 说实话，我也不清楚，看机制的还原难度
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 新人们，如果想要知晓模拟器更新实况，多关注他就对了 【如果想简便的称呼他的话，就叫糖浆吧】
 
@@ -44,23 +44,23 @@ description: 这是备份
 
 1.找到ArknightR文件夹并打开
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 2.点击 ArknightR Data 文件夹
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 3.进入 StreamingAssets 文件
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 4.进入map 文件夹
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 5.将下载好的 .map 后缀文件复制进 map 文件夹
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 ### ● 手机版
 
@@ -70,7 +70,7 @@ description: 这是备份
 
 ## 关于波次，tag，技能
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 这是一个敌人的编辑页，出现时间，出现波次，间隔时间我们相信新人们是可以整明白的，那我们就不讲了（）
 
@@ -249,7 +249,7 @@ description: 这是备份
 
 转生干员指的是非原作特性天赋技能的干员（如下图子月），转生干员一般有着较为强大的属性天赋和技能（通常被转生是因为原干员太菜【乐】）
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 转生干员列表：
 
@@ -287,7 +287,7 @@ description: 这是备份
 
 注意！此版块涉及到一段较为悠久的往事，如果你不想入局的话建议不要查看
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 这位就是模拟器饱受争议的最大恶人（注：糖浆是模拟器制作者的别名）
 

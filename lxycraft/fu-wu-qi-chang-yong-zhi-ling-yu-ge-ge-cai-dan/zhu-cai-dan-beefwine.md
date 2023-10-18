@@ -16,14 +16,14 @@
 
 ![](https://weboffice-sz.docs.dingtalk.com/api/v3/office/copy/am15YVgzeDlEeUdkVEZBQ1ZkOUtDanhBZkNGUzNqWGNuN2gvakVVQWFHdjJzUUhhYVppaUMrODR4YTBVTUU0U3l2aW9tc01laEw1eTl1aGxUN0lQNkRHVGZiWkxYUUxwVExzY3FMV0JuVzZXQ3hJeFFJNjRpcFVEbVMzb2dvdjl4N3M2MmNLeWRTVGo1dFlESEFrNEpCUDFML0M0Z1pqQnRJYW5lWnF6Yi8rRWJ0bHVQODdxeVZIQ0dmVlNFTjdxVFVINDQ3V2s1MFFWcG00a1hlcz0=/attach/object/c89c7beedcad19a0be82e631299cef14ffa63819)
 
-此四个物品分别对应四个传送点，即为主城、出生岛、靠海密林、合欢村。点击即可传送。 ![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+此四个物品分别对应四个传送点，即为主城、出生岛、靠海密林、合欢村。点击即可传送。 ![](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 此两个物品分别对应生存模式和PVP模式，不推荐使用PVP模式。
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 点击该附魔台，即可对目前主手上的以附魔物品进行精锻，需要耗费游戏币。在后续的文章中还会详细介绍它的使用方法。&#x20;
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
 write by beefwine
