@@ -18,7 +18,8 @@
   * [这是自带命令喵](dingraia\_php/dingraiaphp-no/zhe-shi-zi-dai-ming-ling-miao.md)
   * [配置机器人](dingraia\_php/dingraiaphp-no/pei-zhi-ji-qi-ren.md)
   * [唔？webhook消息？不会消耗API使用量喵！太好啦喵\~](dingraia\_php/dingraiaphp-no/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao-tai-hao-la-miao.md)
-  * [发送内部群消息](dingraia\_php/dingraiaphp-no/fa-song-nei-bu-qun-xiao-xi.md)
+  * [诶？内部群消息喵？其实用的不是很多啦喵\~](dingraia\_php/dingraiaphp-no/ei-nei-bu-qun-xiao-xi-miao-qi-shi-yong-de-bu-shi-hen-duo-la-miao.md)
+  * [涩涩！涩涩！各种涩涩的小道具！](dingraia\_php/dingraiaphp-no/se-se-se-se-ge-zhong-se-se-de-xiao-dao-ju.md)
 * [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
   * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
