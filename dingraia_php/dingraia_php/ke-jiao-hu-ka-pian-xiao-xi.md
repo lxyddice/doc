@@ -63,7 +63,7 @@ if ($globalmessage == "/help_new") {
     $cropidkey = read_file_to_array("config/cropid.json")[$chatbotCorpId];
     $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
     $cid = uuid()."-".uuid();
-        $res = send_interactiveCards($token,'11175fc5-4e31-4f73-9173-ce66eea596a7.schema',$conversationId,$robotCode,1,["cardParamMap"=>["mode"=>"true","1"=>"114514","不管如何塞点东西，不然报错"=>"不然狠狠厚儒你"]],"",$cid,"xxxx");
+    $res = send_interactiveCards($token,'11175fc5-4e31-4f73-9173-ce66eea596a7.schema',$conversationId,$robotCode,1,["cardParamMap"=>["mode"=>"true","1"=>"114514","不管如何塞点东西，不然报错"=>"不然狠狠厚儒你"]],"",$cid,"xxxx");
 }
 ```
 
@@ -147,5 +147,43 @@ $bot_run_as['userId'] //触发回调的用户
 
 ```php
 $conversationId //触发回调的群组id
+```
+
+## 撤回、返回普通消息以及card日志利用
+
+（长是长了一点，但是能用喵\~）
+
+```php
+//获取卡片日志
+$sdlog = read_file_to_array('data/bot/card/card.json');
+//撤回卡片
+$res = groupMessages_recall_v2($token,$sdlog[$bot_run_as['outTrackId']]['data']['robotCode'],$sdlog[$bot_run_as['outTrackId']]['data']['openConversationId'],0,[$sdlog[$bot_run_as['outTrackId']]['processQueryKey']]);
+//发挥消息
+send_message(json_encode($content),$sdlog[$bot_run_as['outTrackId']]['webhook'],$staffid);
+```
+
+```json
+{
+	"卡片唯一编号，也就是$cid": {
+		"data": {
+			"cardData": {
+				"cardParamMap": {
+					"不管如何塞点东西，不然报错": "不然狠狠厚儒你"
+				}
+			},
+			"conversationType": 1,
+			"callbackRouteKey": "回调路由",
+			"cardTemplateId": "卡片id",
+			"outTrackId": "卡片唯一id",
+			"robotCode": "robotCode",
+			"openConversationId": "群id",
+			"cardOptions": {
+				"supportForward": false
+			}
+		},
+		"webhook": "发送人的临时webhook",
+		"processQueryKey": "内部消息id"
+	}
+}
 ```
 
