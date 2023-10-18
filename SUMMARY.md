@@ -13,6 +13,12 @@
   * [可交互卡片消息](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian-xiao-xi.md)
   * [自定义函数和小工具](dingraia\_php/dingraia\_php/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
   * [EULA和版本](dingraia\_php/dingraia\_php/eula-he-ban-ben.md)
+* [Dingraia\_php 但是以躲在房间里の冰晶讲述](dingraia\_php/dingraiaphp-no/README.md)
+  * [开始使用啦awa](dingraia\_php/dingraiaphp-no/kai-shi-shi-yong-la-awa.md)
+  * [这是自带命令喵](dingraia\_php/dingraiaphp-no/zhe-shi-zi-dai-ming-ling-miao.md)
+  * [配置机器人](dingraia\_php/dingraiaphp-no/pei-zhi-ji-qi-ren.md)
+  * [唔？webhook消息？不会消耗API使用量喵！太好啦喵\~](dingraia\_php/dingraiaphp-no/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao-tai-hao-la-miao.md)
+  * [发送内部群消息](dingraia\_php/dingraiaphp-no/fa-song-nei-bu-qun-xiao-xi.md)
 * [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
   * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
