@@ -20,12 +20,16 @@ updateMoney($uid, $changeAmount);
 #### 切割字符串
 
 ```php
-$time = stringf($globalmessage)['params'][1];
+$time = stringf($globalmessag)
 
 stringf("/114 514 1919 810")['len'];//3
 stringf("/114 514 1919 810 233")['len'];//4
 stringf("/114 514 1919 810 233")['params'][0];///114
 stringf("/114 514 1919 810 233")['params'][2];//1919
+
+//你也可以传第二个参进去自定义分割
+$mes = stringf($globalmessage,".");
+stringf("/114.514 1919.810 233")['params'][2];//514 1919
 ```
 
 #### 检查用户权限

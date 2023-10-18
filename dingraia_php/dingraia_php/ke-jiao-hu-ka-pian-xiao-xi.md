@@ -142,5 +142,10 @@ if ($content['bot_help_v1'] == 'userhelp') {
 ## 卡片回调模式下取得参数
 
 ```php
-$bot_run_as['userId'] = $c['userId'];$bot_run_as['userId'] = $c[',$bot_run_as['userId'] = $c['userId'];'];
+$bot_run_as['userId'] //触发回调的用户
 ```
+
+```php
+$conversationId //触发回调的群组id
+```
+
