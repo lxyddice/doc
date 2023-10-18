@@ -37,6 +37,6 @@ Lxyddice https://lxyddice.top lxy@lxyddice.top
 
 文档版本  v230930.1-alpha
 
-dingraia\_php版本 [https://api.lxyddice.top/dingbot/php/api/get?action=version](https://api.lxyddice.top/dingbot/php/api/get?action=version)
+dingraia\_php开发版本 [https://api.lxyddice.top/dingbot/php/api/get?action=version](https://api.lxyddice.top/dingbot/php/api/get?action=version)
 
-dingraia\_php开发版本 内测中，未开放
+dingraia\_php开放版本 内测中，未开放
