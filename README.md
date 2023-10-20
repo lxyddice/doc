@@ -6,7 +6,7 @@ description: 欢迎来到lxyddice的文档
 
 ## 如果有问题请向我反馈，谢谢！
 
-### [提交一个issue](https://github.com/lxyddice/doc/issues)）
+### [提交一个issue](https://github.com/lxyddice/doc/issues)
 
 ### 通过邮件lxy@lxyddice.top
 
