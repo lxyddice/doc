@@ -1,4 +1,4 @@
-# 诶？内部群消息喵？其实用的不是很多啦喵\~
+# 诶？内部群消息喵？其实做的不是很多喵\~（指API用量）
 
 #### 内部群消息-文本
 
@@ -50,7 +50,7 @@ sampleAudio(文件地址（相对于index.php）,webhook,音频时长（使用ge
 
 ```php
 if ($globalmessage == "哇呜！？为什么写真集在床头啊喵！") {
-    sampleFile("asset/冰晶.zip",$webhook,"PCL2.zip","zip");
+    sampleFile("asset/冰晶の写真-XA10.zip",$webhook,"PCL2.zip","zip");
 }
 ```
 

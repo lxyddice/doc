@@ -16,3 +16,9 @@
 * 如果是手动安装则放到vendor（composer依赖安装位置），不要忘记autoload.php
 
 然后大人就可以使用安装脚本安装啦喵\~
+
+诶多，好像...没有讲创建机器人喵？那就看这个吧
+
+{% content-ref url="fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md" %}
+[fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md](fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md)
+{% endcontent-ref %}
