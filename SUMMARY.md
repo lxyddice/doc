@@ -45,6 +45,8 @@
     * [Page](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/page.md)
     * [模板](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/mo-ban.md)
   * [元素损伤](lxycraft/wan-fa-yu-ji-zhi/yuan-su-sun-shang.md)
+  * [粘液科技](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/README.md)
+    * [增强型工作台](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/zeng-qiang-xing-gong-zuo-tai.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
   * [外置验证（测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
 
