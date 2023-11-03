@@ -5,7 +5,8 @@
 ## 🥰 Dingraia\_php
 
 * [Dingraia\_php](dingraia\_php/dingraia\_php/README.md)
-  * [使用前工作与安装](dingraia\_php/dingraia\_php/shi-yong-qian-gong-zuo-yu-an-zhuang.md)
+  * [使用前工作与安装](dingraia\_php/dingraia\_php/shi-yong-qian-gong-zuo-yu-an-zhuang/README.md)
+    * [附录1：钉钉开放平台创建机器人](dingraia\_php/dingraia\_php/shi-yong-qian-gong-zuo-yu-an-zhuang/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md)
   * [自带命令](dingraia\_php/dingraia\_php/zi-dai-ming-ling.md)
   * [配置机器人](dingraia\_php/dingraia\_php/pei-zhi-ji-qi-ren.md)
   * [发送使用webhook的普通消息](dingraia\_php/dingraia\_php/fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md)
@@ -14,8 +15,7 @@
   * [自定义函数和小工具](dingraia\_php/dingraia\_php/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
   * [EULA和版本](dingraia\_php/dingraia\_php/eula-he-ban-ben.md)
 * [Dingraia\_php 但是让冰晶来讲述](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
-  * [开始使用啦awa](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa/README.md)
-    * [附录1：钉钉开放平台创建机器人](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md)
+  * [开始使用啦awa](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
   * [哈哈\~这是自带命令喵，希望大人用得舒服\~](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ha-ha-zhe-shi-zi-dai-ming-ling-miao-xi-wang-da-ren-yong-de-shu-fu.md)
   * [QWQ...冰晶要不出去玩玩喵？配置机器人什么的...就留给大人一个人做好啦！](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/qwq...-bing-jing-yao-bu-chu-qu-wan-wan-miao-pei-zhi-ji-qi-ren-shi-mo-de-...-jiu-liu-gei-da-ren-yi-ge.md)
   * [唔？webhook消息？不会消耗API使用量喵！](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao.md)
@@ -38,15 +38,20 @@
   * [精锻系统-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/jing-duan-xi-tong-lxyddice/README.md)
     * [新版-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/jing-duan-xi-tong-lxyddice/xin-ban-lxyddice.md)
   * [皮肤教程-lxyddice](lxycraft/fu-wu-qi-chang-yong-zhi-ling-yu-ge-ge-cai-dan/pi-fu-jiao-cheng-lxyddice.md)
-* [机制](lxycraft/ji-zhi/README.md)
-  * [敌人列表](lxycraft/ji-zhi/di-ren-lie-biao/README.md)
-    * [火山旅梦](lxycraft/ji-zhi/di-ren-lie-biao/huo-shan-lv-meng.md)
-    * [探索者的银凇止境](lxycraft/ji-zhi/di-ren-lie-biao/tan-suo-zhe-de-yin-song-zhi-jing.md)
-    * [Page](lxycraft/ji-zhi/di-ren-lie-biao/page.md)
-    * [模板](lxycraft/ji-zhi/di-ren-lie-biao/mo-ban.md)
-  * [元素损伤](lxycraft/ji-zhi/yuan-su-sun-shang.md)
+* [玩法与机制](lxycraft/wan-fa-yu-ji-zhi/README.md)
+  * [敌人列表](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/README.md)
+    * [火山旅梦](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/huo-shan-lv-meng.md)
+    * [探索者的银凇止境](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/tan-suo-zhe-de-yin-song-zhi-jing.md)
+    * [Page](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/page.md)
+    * [模板](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/mo-ban.md)
+  * [元素损伤](lxycraft/wan-fa-yu-ji-zhi/yuan-su-sun-shang.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
   * [外置验证（测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
+
+***
+
+* [更新日志](geng-xin-ri-zhi/README.md)
+  * [v231103.1-Beta](geng-xin-ri-zhi/v231103.1-beta.md)
 
 ## ArknightR
 
