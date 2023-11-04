@@ -63,7 +63,7 @@ if ($globalmessage == "/help_new") {
     $cropidkey = read_file_to_array("config/cropid.json")[$chatbotCorpId];
     $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
     $cid = uuid()."-".uuid();
-    $res = send_interactiveCards($token,'11175fc5-4e31-4f73-9173-ce66eea596a7.schema',$conversationId,$robotCode,1,["cardParamMap"=>["mode"=>"true","1"=>"114514","不管如何塞点东西，不然报错"=>"不然狠狠厚儒你"]],"",$cid,"xxxx");
+    $res = send_interactiveCards($token,卡片id,$conversationId,$robotCode,1,["cardParamMap"=>["mode"=>"true","1"=>"114514","不管如何塞点东西，不然报错"=>"不然狠狠厚儒你"]],"",$cid,"xxxx");
 }
 ```
 
@@ -72,7 +72,7 @@ $cropidkey = read_file_to_array("config/cropid.json")[$chatbotCorpId];
 $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
 //token是钉钉api万物之源，别忘了哟~
 $cid = uuid()."-".uuid(); // 超级（寄）长的uuid，保证你的卡片id114514年都不会重复，当然，你可以用自己的
-send_interactiveCards($token,卡片id,群id,robotcode,变量替换（下面讲）,（没写完，传空值）,$cid（可选，不写就写null框架自动配置, 回调路由（可选，下面讲）); //这段才是关
+send_interactiveCards($token,卡片id,群id,robotcode,变量替换（下面讲）,（没写完，传空值）,$cid（可选，不写就写null框架自动配置, 回调路由（可选，下面讲）); //这段才是关键
 ```
 
 #### 变量替换
