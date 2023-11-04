@@ -13,6 +13,7 @@
   * [发送内部群消息](dingraia\_php/dingraia\_php/fa-song-nei-bu-qun-xiao-xi.md)
   * [可交互卡片消息](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian-xiao-xi.md)
   * [自定义函数和小工具](dingraia\_php/dingraia\_php/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
+  * [Dingraia\_py主从](dingraia\_php/dingraia\_php/dingraiapy-zhu-cong.md)
   * [EULA和版本](dingraia\_php/dingraia\_php/eula-he-ban-ben.md)
 * [Dingraia\_php 但是让冰晶来讲述](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
   * [开始使用啦awa](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
