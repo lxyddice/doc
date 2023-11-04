@@ -24,7 +24,7 @@ $bot_run_as['dingraiaMasterType'] == message 为普通消息
 $bot_run_as['dingraiaMasterType'] == callback 为事件回调
 */
 if ($bot_run_as['chat_mode'] == "dingraia_master") {
-    send_message($bot_run_as['trueDingraiaAuth'].$bot_run_as['dingraiaMasterType'],"https://oapi.dingtalk.com/robot/send?access_token=e5fdd35c6832fe913ff931e543a54ace3a1dd67a666a3cb6bfa38b5f648b2904");
+    send_message($bot_run_as['trueDingraiaAuth'].$bot_run_as['dingraiaMasterType'],"原神启动");
 }
 //$bot_run_as['trueDingraiaAuth']为正确的主从验证
 ```

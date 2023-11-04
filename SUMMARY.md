@@ -11,7 +11,7 @@
   * [配置机器人](dingraia\_php/dingraia\_php/pei-zhi-ji-qi-ren.md)
   * [发送使用webhook的普通消息](dingraia\_php/dingraia\_php/fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md)
   * [发送内部群消息](dingraia\_php/dingraia\_php/fa-song-nei-bu-qun-xiao-xi.md)
-  * [可交互卡片](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian.md)
+  * [可交互卡片](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian-xiao-xi.md)
   * [事件订阅](dingraia\_php/dingraia\_php/shi-jian-ding-yue.md)
   * [Dingraia\_py主从](dingraia\_php/dingraia\_php/dingraiapy-zhu-cong.md)
   * [管理员页面](dingraia\_php/dingraia\_php/guan-li-yuan-ye-mian.md)
