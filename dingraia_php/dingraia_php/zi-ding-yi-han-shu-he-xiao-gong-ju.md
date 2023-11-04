@@ -111,6 +111,8 @@ $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
 get_accessToken(AppKey,AppSecret);
 ```
 
+token会缓存一段时间避免大量调用浪费api量
+
 #### 修改群u的群名
 
 ```php
@@ -223,6 +225,8 @@ $res = requests("POST", "https://api.lxyddice.top/api/gk", $data)['code'];//返�
 requests(请求方法, url, 请求体, 请求头, 超时时间);
 ```
 
+小提示：默认的data不会转为json，要i的话请添加在header内添加`["Content-Type" => "application/json"]`
+
 #### 格式化ymd时间
 
 ```php
@@ -239,11 +243,11 @@ formatTimeFromSeconds('100');//1i40s
 
 y：年  m：月  d：日  h：小时  i：分钟  s：秒
 
-#### 数据库以![](<../../.gitbook/assets/image (1) (1).png>)查询用户数据
+#### 数据库以![](<../../.gitbook/assets/image (1) (1) (1).png>)查询用户数据
 
 <mark style="color:yellow;">警告！该方法为用户注册api，也就是传入userid不在库中会自动注册！所以不要随意调用传数据！</mark>
 
-<mark style="color:yellow;">wuid为另一框架的uid，不需要动他</mark>
+<mark style="color:yellow;">wuid为Dingraia\_py的uid，不需要动他</mark>
 
 ```php
 userid2uid(userid);

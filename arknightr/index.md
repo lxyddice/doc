@@ -22,7 +22,7 @@ description: 这是备份
 
 我该怎么找到模拟器？
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 找到ArknightR+日期格式的文件，这就是模拟器的压缩包，解压即可获得模拟器（当然，模拟器也是有手机版的，就是apk的）
 
@@ -32,7 +32,7 @@ description: 这是备份
 
 说实话，我也不清楚，看机制的还原难度
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 新人们，如果想要知晓模拟器更新实况，多关注他就对了 【如果想简便的称呼他的话，就叫糖浆吧】
 
@@ -44,11 +44,11 @@ description: 这是备份
 
 1.找到ArknightR文件夹并打开
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 2.点击 ArknightR Data 文件夹
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 3.进入 StreamingAssets 文件
 

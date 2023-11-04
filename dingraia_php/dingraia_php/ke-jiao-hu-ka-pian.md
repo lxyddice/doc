@@ -1,8 +1,8 @@
 ---
-description: 这玩意多少有点抽象，并且已实现功能很少，但是能用。下面一步步教如何使用qwq
+description: 这玩意多少有点抽象，并且已实现功能很少，请酌情使用。下面一步步教如何使用qwq
 ---
 
-# 可交互卡片消息
+# 可交互卡片
 
 ## 发送卡片
 
@@ -10,7 +10,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，但是�
 
 ### 在顶栏选择开放能力-卡片平台-新建模板
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 填写相关信息后进入搭建平台
 
@@ -18,11 +18,11 @@ description: 这玩意多少有点抽象，并且已实现功能很少，但是�
 
 ### 下面以我的机器人的菜单为示例（菜勿喷，谢谢你QAQ）：
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 开头是markdown内容，如下
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 第二行为点击按钮后文字会改变，mode为false表示当后面传入的变量为false时，才会显示
 
@@ -50,7 +50,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，但是�
 
 #### 相关变量
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 做完了点右上发布，返回卡片列表就能看到卡片id喵
 
@@ -71,7 +71,7 @@ if ($globalmessage == "/help_new") {
 $cropidkey = read_file_to_array("config/cropid.json")[$chatbotCorpId];
 $token = get_accessToken($cropidkey['AppKey'],$cropidkey['AppSecret']);
 //token是钉钉api万物之源，别忘了哟~
-$cid = uuid()."-".uuid(); // 超级（寄）长的uuid，保证你的卡片114514年都不会重复uuid，当然，你可以用自己的
+$cid = uuid()."-".uuid(); // 超级（寄）长的uuid，保证你的卡片id114514年都不会重复，当然，你可以用自己的
 send_interactiveCards($token,卡片id,群id,robotcode,变量替换（下面讲）,（没写完，传空值）,$cid（可选，不写就写null框架自动配置, 回调路由（可选，下面讲）); //这段才是关
 ```
 
@@ -142,7 +142,7 @@ if ($content['bot_help_v1'] == 'userhelp') {
 ## 卡片回调模式下取得参数
 
 ```php
-$bot_run_as['userId'] //触发回调的用户
+$bot_run_as['userId'] //触发回调的userid
 ```
 
 ```php
@@ -156,11 +156,13 @@ $conversationId //触发回调的群组id
 ```php
 //获取卡片日志
 $sdlog = read_file_to_array('data/bot/card/card.json');
-//撤回卡片
+//撤回卡片（是很长qwq，0表示立即撤回）
 $res = groupMessages_recall_v2($token,$sdlog[$bot_run_as['outTrackId']]['data']['robotCode'],$sdlog[$bot_run_as['outTrackId']]['data']['openConversationId'],0,[$sdlog[$bot_run_as['outTrackId']]['processQueryKey']]);
-//发挥消息
+//发回消息（超过临时webhook有效期就寄了，$content是消息内容，可以是"别点了再点就艾草"）
 send_message(json_encode($content),$sdlog[$bot_run_as['outTrackId']]['webhook'],$staffid);
 ```
+
+这是一段日志示例
 
 ```json
 {
@@ -187,3 +189,6 @@ send_message(json_encode($content),$sdlog[$bot_run_as['outTrackId']]['webhook'],
 }
 ```
 
+### 温馨提示
+
+1. 如果按钮一直存在可能会有『坏家伙』一直乱点消耗api量，请注意
