@@ -45,17 +45,19 @@
   * [敌人列表](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/README.md)
     * [火山旅梦](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/huo-shan-lv-meng.md)
     * [探索者的银凇止境](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/tan-suo-zhe-de-yin-song-zhi-jing.md)
-    * [Page](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/page.md)
+    * [萨卡兹](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/sa-ka-zi.md)
     * [模板](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/mo-ban.md)
   * [元素损伤](lxycraft/wan-fa-yu-ji-zhi/yuan-su-sun-shang.md)
   * [粘液科技](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/README.md)
     * [增强型工作台](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/zeng-qiang-xing-gong-zuo-tai.md)
+    * [Page 1](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/page-1.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
   * [外置验证（测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
 
 ***
 
 * [更新日志](geng-xin-ri-zhi/README.md)
+  * [v231111-Beta](geng-xin-ri-zhi/v231111-beta.md)
   * [v231103.1-Beta](geng-xin-ri-zhi/v231103.1-beta.md)
 
 ## ArknightR
