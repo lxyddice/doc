@@ -4,6 +4,10 @@
 
 很烂，而且最近钉钉有奇奇怪怪的重试机制，很抽象，但是能用
 
+## 特性
+
+支持多企业下程序的回调，只需要你的配置文件没问题，则框架会自动寻找能解密的appKey确定是哪个app发的
+
 ## 配置事件订阅
 
 记下aes\_key和token，请求网址为./index.php
@@ -47,3 +51,28 @@ if ($bot_run_as['chat_mode'] == "cb") {
 
 * $bot\_run\_as\['callbackContent'] 事件内容
 * $bot\_run\_as\['appInfo'] 触发事件的App
+
+## 其他功能
+
+### 加密
+
+```php
+require_once("module/DingraiaPHP/getcallback.php");
+en_DingraiaDingtalkCallback(加密字符串,$nonce, 签名token, aes_key, appKey);
+
+//使用示例
+en_DingraiaDingtalkCallback('success',$nonce, $token, $encodingAesKey, $suiteKey);
+/*
+输出（注意，是json）：
+{"msg_signature":"加签","encrypt":"success的加密内容","timeStamp":"时间戳","nonce":"nonce"}
+*/
+```
+
+### 解密
+
+```php
+require_once("module/DingraiaPHP/getcallback.php");
+$result = de_DingraiaDingtalkCallback(msg_sign, 时间戳, nonce, 加密内容, 签名token, aes_key, appKey);
+
+//注意，若成功，返回的是json，失败会返回false
+```

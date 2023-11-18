@@ -359,13 +359,13 @@ check_group_permission(群id, 权限名);
 uuid();
 ```
 
-撤回消息
+#### 撤回消息
 
 ```php
 groupMessages_recall_v2($token,$robotCode, 群id, 撤回时间, 内部消息id);
 ```
 
-下载内容
+#### 下载内容
 
 ```php
 $res = requests_download_file($thumbnail, "data/download/pixiv", "GET")['saved_file'];
@@ -376,3 +376,9 @@ requests_download_file(下载链接, 保存目录, 请求方式（可选，默�
 ```
 
 返回save\_data则为相对路径，如  data/download/pixiv/114514.png
+
+#### 轮询字典（无用）
+
+```php
+iterateDictionary(array);
+```
