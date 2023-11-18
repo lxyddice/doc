@@ -1,4 +1,4 @@
-# 唔？webhook消息？不会消耗API使用量喵！太好啦喵\~
+# 唔？webhook消息？不会消耗API使用量喵！
 
 ### 插件目录是plugin喵，把大大的插件丢进去吧\~诶？
 
@@ -50,7 +50,7 @@ send_link(消息内容, 回调地址, 0（强制填0）, 标题, 显示图片url
 
 必须定义Atitle和actionURL
 
-![](<../../.gitbook/assets/image (32).png>)（图文无关，只做示例）
+![](<../../.gitbook/assets/image (66).png>)（图文无关，只做示例）
 
 方法就这样，不想写了（
 
@@ -66,7 +66,7 @@ if ($globalmessage == "其实冰晶也有点想要吧？") {
 }
 ```
 
-![](<../../.gitbook/assets/image (34).png>)（图文无关，只做示例）
+![](<../../.gitbook/assets/image (68).png>)（图文无关，只做示例）
 
 方法就这样，不想写了（
 
@@ -85,7 +85,7 @@ if ($globalmessage == "那我要来抓冰晶了~") {
 
 必须定义Atitle和actionURL和ApicUrl
 
-![](<../../.gitbook/assets/image (36).png>)（图文无关，只做示例）
+![](<../../.gitbook/assets/image (70).png>)（图文无关，只做示例）
 
 最后的true是指当客户端为pc版时是否在钉钉内直接打开（默认不是，可以不传该参数）
 

@@ -8,7 +8,7 @@
 
 `酷应用id：`
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (64).png>)
 
 ## config/group.json
 

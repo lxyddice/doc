@@ -239,7 +239,7 @@ formatTimeFromSeconds('100');//1i40s
 
 y：年  m：月  d：日  h：小时  i：分钟  s：秒
 
-#### 数据库以![](<../../.gitbook/assets/image (1) (1) (1).png>)查询用户数据
+#### 数据库以![](<../../.gitbook/assets/image (15).png>)查询用户数据
 
 <mark style="color:yellow;">警告！该方法为用户注册api，也就是传入userid不在库中会自动注册！所以不要随意调用传数据！</mark>
 

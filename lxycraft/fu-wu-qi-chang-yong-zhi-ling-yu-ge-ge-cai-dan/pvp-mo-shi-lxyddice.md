@@ -4,7 +4,7 @@
 
 输入/cd 选择钻石剑
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 |   |   | 确定 |   |   |   | 取消 |   |   |
 | - | - | -- | - | - | - | -- | - | - |
@@ -13,17 +13,17 @@
 
 警告：在切换用户组
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 后请把物品放进末影箱，pvp模式会清包！
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (31).png>)
 
 PVP菜单是 /pvp
 
 &#x20;
 
-![](<../../.gitbook/assets/image (5) (1) (1).png>)
+![](<../../.gitbook/assets/image (32).png>)
 
 | 返回PVP大厅               |   |                                |   |   |   |   |   | 紫砂           |
 | --------------------- | - | ------------------------------ | - | - | - | - | - | ------------ |

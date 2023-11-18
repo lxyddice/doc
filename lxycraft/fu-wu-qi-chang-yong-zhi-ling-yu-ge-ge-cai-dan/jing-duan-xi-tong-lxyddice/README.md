@@ -2,8 +2,8 @@
 
 ## 查看新版 [xin-ban-lxyddice.md](xin-ban-lxyddice.md "mention")
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (60).png>)
 
-![](<../../../.gitbook/assets/image (27).png>)
+![](<../../../.gitbook/assets/image (61).png>)
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](<../../../.gitbook/assets/image (63).png>)

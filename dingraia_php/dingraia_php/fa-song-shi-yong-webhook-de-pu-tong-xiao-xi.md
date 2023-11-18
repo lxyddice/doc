@@ -50,7 +50,7 @@ send_link(消息内容, 回调地址, 0（强制填0）, 标题, 显示图片url
 
 必须定义Atitle和actionURL
 
-![](<../../.gitbook/assets/image (32).png>)
+![](<../../.gitbook/assets/image (66).png>)
 
 方法就这样，不想写了（
 
@@ -68,7 +68,7 @@ if ($globalmessage == "/acatest2") {
 }
 ```
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (68).png>)
 
 方法就这样，不想写了（
 
@@ -87,7 +87,7 @@ if ($globalmessage == "/feedcardtest") {
 
 必须定义Atitle和actionURL和ApicUrl
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 方法就这样，不想写了（
 

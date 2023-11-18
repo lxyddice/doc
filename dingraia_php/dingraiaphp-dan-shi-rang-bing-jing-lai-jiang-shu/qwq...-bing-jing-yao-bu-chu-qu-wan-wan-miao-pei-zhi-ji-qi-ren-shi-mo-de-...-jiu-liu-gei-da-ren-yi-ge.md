@@ -23,7 +23,7 @@ description: （为什么安装完了还不给我用！差评！）
 
 `酷应用id：`
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (64).png>)
 
 ## config/group.json
 

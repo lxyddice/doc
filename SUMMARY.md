@@ -11,7 +11,7 @@
   * [配置机器人](dingraia\_php/dingraia\_php/pei-zhi-ji-qi-ren.md)
   * [发送使用webhook的普通消息](dingraia\_php/dingraia\_php/fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md)
   * [发送内部群消息](dingraia\_php/dingraia\_php/fa-song-nei-bu-qun-xiao-xi.md)
-  * [可交互卡片](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian-xiao-xi.md)
+  * [可交互卡片](dingraia\_php/dingraia\_php/ke-jiao-hu-ka-pian.md)
   * [事件订阅](dingraia\_php/dingraia\_php/shi-jian-ding-yue.md)
   * [Dingraia\_py主从](dingraia\_php/dingraia\_php/dingraiapy-zhu-cong.md)
   * [管理员页面](dingraia\_php/dingraia\_php/guan-li-yuan-ye-mian.md)
@@ -24,8 +24,8 @@
   * [唔？webhook消息？不会消耗API使用量喵！](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao.md)
   * [诶？内部群消息喵？其实做的不是很多喵\~（指API用量）](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ei-nei-bu-qun-xiao-xi-miao-qi-shi-zuo-de-bu-shi-hen-duo-miao-zhi-api-yong-liang.md)
   * [涩涩！涩涩！各种涩涩的小道具！](dingraia\_php/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/se-se-se-se-ge-zhong-se-se-de-xiao-dao-ju.md)
-* [冰晶·钉钉机器人开放API](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
-  * [插件](lxy\_dingbot/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
+* [冰晶·钉钉机器人开放API](dingraia\_php/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
+  * [插件](dingraia\_php/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
 ## 😃 lxycraft
 
@@ -45,7 +45,7 @@
   * [敌人列表](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/README.md)
     * [火山旅梦](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/huo-shan-lv-meng.md)
     * [探索者的银凇止境](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/tan-suo-zhe-de-yin-song-zhi-jing.md)
-    * [萨卡兹](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/page.md)
+    * [萨卡兹](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/sa-ka-zi.md)
     * [水月与深蓝之树](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/shui-yue-yu-shen-lan-zhi-shu.md)
     * [模板](lxycraft/wan-fa-yu-ji-zhi/di-ren-lie-biao/mo-ban.md)
   * [元素损伤](lxycraft/wan-fa-yu-ji-zhi/yuan-su-sun-shang.md)
