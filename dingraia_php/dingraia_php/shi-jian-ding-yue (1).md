@@ -6,7 +6,7 @@
 
 ## 配置事件订阅
 
-记下aes\_key和token，请求网址为index.php
+记下aes\_key和token，请求网址为./index.php
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,3 +42,8 @@ if ($bot_run_as['chat_mode'] == "cb") {
 如果可以，你会收到机器人的信息
 
 <figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+
+## 其他参数
+
+* $bot\_run\_as\['callbackContent'] 事件内容
+* $bot\_run\_as\['appInfo'] 触发事件的App
