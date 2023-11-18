@@ -19,6 +19,6 @@
 
 诶多，好像...没有讲创建机器人喵？那就看这个吧
 
-{% content-ref url="../dingraia_php/shi-yong-qian-gong-zuo-yu-an-zhuang/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md" %}
-[fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md](../dingraia\_php/shi-yong-qian-gong-zuo-yu-an-zhuang/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md)
+{% content-ref url="../dingraiaphp/shi-yong-qian-gong-zuo-yu-an-zhuang/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md" %}
+[fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md](../dingraiaphp/shi-yong-qian-gong-zuo-yu-an-zhuang/fu-lu-1-ding-ding-kai-fang-ping-tai-chuang-jian-ji-qi-ren.md)
 {% endcontent-ref %}

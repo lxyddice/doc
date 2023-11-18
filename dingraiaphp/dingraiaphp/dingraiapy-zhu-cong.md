@@ -21,17 +21,31 @@
 /*dingraia_master模式*/
 /*
 $bot_run_as['dingraiaMasterType'] == message 为普通消息
-$bot_run_as['dingraiaMasterType'] == callback 为事件回调
+$bot_run_as['dingraiaMasterType'] == callback 为旧版事件回调
+$bot_run_as['dingraiaMasterType'] == newCallback 为新版事件回调
 */
 if ($bot_run_as['chat_mode'] == "dingraia_master") {
     send_message($bot_run_as['trueDingraiaAuth'].$bot_run_as['dingraiaMasterType'],"原神启动");
 }
-//$bot_run_as['trueDingraiaAuth']为正确的主从验证
+//$bot_run_as['trueDingraiaAuth']为正确的主从验证密钥
 ```
+
+## 新版事件回调
+
+### 特点
+
+* 无需trueDingraiaAuth验证
+* 使用钉钉自带加解密
+
+### 使用方法
+
+制作中
 
 ## TODO
 
-还没想好
+{% content-ref url="todo-list.md" %}
+[todo-list.md](todo-list.md)
+{% endcontent-ref %}
 
 ## 冰晶吐槽
 
