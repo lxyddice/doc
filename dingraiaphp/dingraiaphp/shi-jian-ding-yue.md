@@ -35,11 +35,16 @@
 
 在插件文件夹写入以下代码：
 
-```php
-if ($bot_run_as['chat_mode'] == "cb") {
-    send_message($bot_run_as['callbackContent'],webhook);
+<pre class="language-php"><code class="lang-php">/*
+$bot_run_as['dingraiaMasterType'] == message 为主从普通消息
+$bot_run_as['dingraiaMasterType'] == callback 为主从事件回调
+$bot_run_as['chat_mode'] == mcb 为正常事件回调
+$bot_run_as['chat_mode'] == cb 为主从事件回调
+*/
+<strong>if ($bot_run_as['chat_mode'] == "cb") {
+</strong>    send_message($bot_run_as['callbackContent'],webhook);
 }
-```
+</code></pre>
 
 修改一个装了机器人的群的群名，webhook写机器人固定webhook
 
@@ -63,7 +68,7 @@ en_DingraiaDingtalkCallback(加密字符串,$nonce, 签名token, aes_key, appKey
 //使用示例
 en_DingraiaDingtalkCallback('success',$nonce, $token, $encodingAesKey, $suiteKey);
 /*
-输出（注意，是json）：
+输出（注意，是json，事失败返回false）：
 {"msg_signature":"加签","encrypt":"success的加密内容","timeStamp":"时间戳","nonce":"nonce"}
 */
 ```

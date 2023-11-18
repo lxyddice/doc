@@ -20,9 +20,10 @@
 <?php
 /*dingraia_master模式*/
 /*
-$bot_run_as['dingraiaMasterType'] == message 为普通消息
-$bot_run_as['dingraiaMasterType'] == callback 为旧版事件回调
-$bot_run_as['dingraiaMasterType'] == newCallback 为新版事件回调
+$bot_run_as['dingraiaMasterType'] == message 为主从普通消息
+$bot_run_as['dingraiaMasterType'] == callback 为主从事件回调
+$bot_run_as['chat_mode'] == mcb 为正常事件回调
+$bot_run_as['chat_mode'] == cb 为主从事件回调
 */
 if ($bot_run_as['chat_mode'] == "dingraia_master") {
     send_message($bot_run_as['trueDingraiaAuth'].$bot_run_as['dingraiaMasterType'],"原神启动");
