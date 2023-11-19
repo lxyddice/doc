@@ -49,7 +49,7 @@ function DingraiaPHPRunCron() {
 
 ### 防止重复运行
 
-定时任务只会开一个，后续调用时会终止并输出`Cron running now`
+定时任务只会开一个，后续调用时会终止并输出`Cron is running`
 
 ### 开启时卡死
 
