@@ -54,7 +54,7 @@
 
 ## 登录与分享
 
-未完成
+[jie-ru-deng-lu.md](../jie-ru-deng-lu.md "mention")
 
 ## 部署与发布
 
@@ -63,3 +63,17 @@
 {% embed url="https://open.dingtalk.com/document/isvapp/publish-and-install-isvapp" %}
 
 自己看罢（
+
+### 新版
+
+钉钉新版开放平台发布很容易了
+
+<figure><img src="../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+
+点击创建新版本
+
+<figure><img src="../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+
+自己会写的啦，不教了qwq
