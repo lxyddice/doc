@@ -13,6 +13,7 @@
   * [发送内部群消息](dingraiaphp/dingraiaphp/fa-song-nei-bu-qun-xiao-xi.md)
   * [可交互卡片](dingraiaphp/dingraiaphp/ke-jiao-hu-ka-pian.md)
   * [事件订阅](dingraiaphp/dingraiaphp/shi-jian-ding-yue.md)
+  * [接入登录](dingraiaphp/dingraiaphp/jie-ru-deng-lu.md)
   * [Dingraia\_py主从](dingraiaphp/dingraiaphp/dingraiapy-zhu-cong.md)
   * [管理员页面](dingraiaphp/dingraiaphp/guan-li-yuan-ye-mian.md)
   * [自定义函数和小工具](dingraiaphp/dingraiaphp/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
