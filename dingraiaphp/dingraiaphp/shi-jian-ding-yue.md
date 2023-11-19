@@ -84,4 +84,4 @@ $result = de_DingraiaDingtalkCallback(msg_sign, 时间戳, nonce, 加密内容, 
 
 ## 后记
 
-* 该加解密代码改编于[https://github.com/hlf513/dingtalk-crypto](https://github.com/hlf513/dingtalk-crypto)，十分感谢原作者的代码！
+* 该加解密代码改编于[https://github.com/hlf513/dingtalk-crypto](https://github.com/hlf513/dingtalk-crypto)，十分感谢原作者！
