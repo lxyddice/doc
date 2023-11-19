@@ -81,3 +81,7 @@ $result = de_DingraiaDingtalkCallback(msg_sign, 时间戳, nonce, 加密内容, 
 
 //注意，若成功，返回的是json，失败会返回false
 ```
+
+## 后记
+
+* 该加解密代码改编于[https://github.com/hlf513/dingtalk-crypto](https://github.com/hlf513/dingtalk-crypto)，十分感谢原作者的代码！
