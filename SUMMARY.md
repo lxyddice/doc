@@ -22,7 +22,7 @@
   * [TODO LIST](dingraiaphp/dingraiaphp/todo-list.md)
   * [旧版文档](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/README.md)
     * [事件订阅](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/shi-jian-ding-yue.md)
-* [Dingraia\_php 但是让冰晶来讲述](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
+* [DingraiaPHP 但是让冰晶来讲述](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
   * [开始使用啦awa](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
   * [哈哈\~这是自带命令喵，希望大人用得舒服\~](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ha-ha-zhe-shi-zi-dai-ming-ling-miao-xi-wang-da-ren-yong-de-shu-fu.md)
   * [QWQ...冰晶要不出去玩玩喵？配置机器人什么的...就留给大人一个人做好啦！](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/qwq...-bing-jing-yao-bu-chu-qu-wan-wan-miao-pei-zhi-ji-qi-ren-shi-mo-de-...-jiu-liu-gei-da-ren-yi-ge.md)
