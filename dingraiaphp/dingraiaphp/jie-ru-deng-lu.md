@@ -35,13 +35,15 @@ https://xxx.com/index.php?client_id=小程序的ClientID也就使appKey
 用户登录完成后会跳转到
 
 ```url
-https://xxx.com/index.php?authCode=钉钉返回的token&state=唯一uuid
+https://xxx.com/index.php?authCode=钉钉返回的token
+&state=唯一uuid
 ```
 
 在此处，框架会检查该uuid是否使用过，使用过的话会报出错误，否则会向钉钉服务器请求获取用户信息。随后跳转到
 
 ```url
-你设定的回调url?DingraiaPHPState=唯一uuid&state=原始state
+你设定的回调url?DingraiaPHPState=唯一uuid
+&state=原始state
 ```
 
 随后，你需要请求框架的API获取token和用户信息。地址为
