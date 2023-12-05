@@ -78,4 +78,4 @@ if (strpos($globalmessage, "/test2") === 0) {
 
 
 
-[pei-zhi-ji-qi-ren.md](../dingraiaphp/pei-zhi-ji-qi-ren.md "mention")
+[pei-zhi-ji-qi-ren.md](../../dingraiaphp/dingraiaphp/pei-zhi-ji-qi-ren.md "mention")

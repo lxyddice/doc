@@ -23,15 +23,6 @@
   * [TODO LIST](dingraiaphp/dingraiaphp/todo-list.md)
   * [旧版文档](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/README.md)
     * [事件订阅](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/shi-jian-ding-yue.md)
-* [DingraiaPHP 但是让冰晶来讲述](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
-  * [开始使用啦awa](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
-  * [哈哈\~这是自带命令喵，希望大人用得舒服\~](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ha-ha-zhe-shi-zi-dai-ming-ling-miao-xi-wang-da-ren-yong-de-shu-fu.md)
-  * [QWQ...冰晶要不出去玩玩喵？配置机器人什么的...就留给大人一个人做好啦！](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/qwq...-bing-jing-yao-bu-chu-qu-wan-wan-miao-pei-zhi-ji-qi-ren-shi-mo-de-...-jiu-liu-gei-da-ren-yi-ge.md)
-  * [唔？webhook消息？不会消耗API使用量喵！](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao.md)
-  * [诶？内部群消息喵？其实做的不是很多喵\~（指API用量）](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ei-nei-bu-qun-xiao-xi-miao-qi-shi-zuo-de-bu-shi-hen-duo-miao-zhi-api-yong-liang.md)
-  * [涩涩！涩涩！各种涩涩的小道具！](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/se-se-se-se-ge-zhong-se-se-de-xiao-dao-ju.md)
-* [冰晶·钉钉机器人开放API](dingraiaphp/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
-  * [插件](dingraiaphp/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
 
 ## 😃 lxycraft
 
@@ -57,13 +48,26 @@
   * [元素损伤](lxycraft/wan-fa-yu-ji-zhi/yuan-su-sun-shang.md)
   * [粘液科技](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/README.md)
     * [增强型工作台](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/zeng-qiang-xing-gong-zuo-tai.md)
-    * [Page 1](lxycraft/wan-fa-yu-ji-zhi/nian-ye-ke-ji/page-1.md)
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
-  * [外置验证（测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
+  * [外置验证（未启用-测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
 * [更新日志](lxycraft/geng-xin-ri-zhi/README.md)
+  * [v231205-Beta](lxycraft/geng-xin-ri-zhi/v231205-beta.md)
   * [v231111-Beta](lxycraft/geng-xin-ri-zhi/v231111-beta.md)
   * [v231103.1-Beta](lxycraft/geng-xin-ri-zhi/v231103.1-beta.md)
 
 ## ArknightR
 
 * [index](arknightr/index.md)
+
+## 丢弃文档 <a href="#deletepage" id="deletepage"></a>
+
+* [丢弃文档介绍](deletepage/diu-qi-wen-dang-jie-shao.md)
+* [DingraiaPHP 但是让冰晶来讲述](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
+  * [开始使用啦awa](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
+  * [哈哈\~这是自带命令喵，希望大人用得舒服\~](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ha-ha-zhe-shi-zi-dai-ming-ling-miao-xi-wang-da-ren-yong-de-shu-fu.md)
+  * [QWQ...冰晶要不出去玩玩喵？配置机器人什么的...就留给大人一个人做好啦！](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/qwq...-bing-jing-yao-bu-chu-qu-wan-wan-miao-pei-zhi-ji-qi-ren-shi-mo-de-...-jiu-liu-gei-da-ren-yi-ge.md)
+  * [唔？webhook消息？不会消耗API使用量喵！](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/wu-webhook-xiao-xi-bu-hui-xiao-hao-api-shi-yong-liang-miao.md)
+  * [诶？内部群消息喵？其实做的不是很多喵\~（指API用量）](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ei-nei-bu-qun-xiao-xi-miao-qi-shi-zuo-de-bu-shi-hen-duo-miao-zhi-api-yong-liang.md)
+  * [涩涩！涩涩！各种涩涩的小道具！](deletepage/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/se-se-se-se-ge-zhong-se-se-de-xiao-dao-ju.md)
+* [冰晶·钉钉机器人开放API](deletepage/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/README.md)
+  * [插件](deletepage/bing-jing-ding-ding-ji-qi-ren-kai-fang-api/cha-jian.md)
