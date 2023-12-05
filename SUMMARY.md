@@ -55,6 +55,8 @@
   * [v231205-Beta](lxycraft/geng-xin-ri-zhi/v231205-beta.md)
   * [v231111-Beta](lxycraft/geng-xin-ri-zhi/v231111-beta.md)
   * [v231103.1-Beta](lxycraft/geng-xin-ri-zhi/v231103.1-beta.md)
+* [赞助](lxycraft/zan-zhu/README.md)
+  * [赞助者列表](lxycraft/zan-zhu/zan-zhu-zhe-lie-biao.md)
 
 ## ArknightR
 
