@@ -39,8 +39,6 @@ function DingraiaPHPRunCron() {
 
 任务加载后，会载入内存重复运行，因此要修改任务需要先终止再重开
 
-
-
 ### 重启任务
 
 该方法为v231229.1-Alpha新增
@@ -53,11 +51,31 @@ if (isset($_GET['cronRestart'])) {
 
 ## 定时重启
 
-#### w？
+新增于v231231.3-Alpha
+
+#### 为什么会有这玩意？
 
 开发者注意到bug，当php持续一段时间后会杀进程，因此让其一直持续的办法可能如此了
 
+#### 使用
 
+打开config/bot.json，你会看到如下配置
+
+```json
+"cron":{
+        "autoRestart":323, //自动重启时间
+        "runParams":"?cronRun",
+        "stopParams":"?cronStop",
+        "restartParams":"?cronRestart",
+        "restartUrl":"https://xxx.com/?cronRestart"
+    }
+```
+
+自动重启时间尽量复杂一些，比如每323秒自动重启，而且要比你设置的php超时时间少
+
+restartUrl是每过自动重启时间就访问一次进行重启
+
+注意，定时自动重启不要用 `DingraiaPHPCronRestart 函数`
 
 ## 注意
 
