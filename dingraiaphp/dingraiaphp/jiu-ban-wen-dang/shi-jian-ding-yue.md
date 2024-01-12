@@ -14,8 +14,8 @@
 ## 使用
 
 1. 定义变量$token、$encodingAesKey、$suiteKey
-2. token为![](<../../../.gitbook/assets/image (2).png>)，encodingAesKey为![](<../../../.gitbook/assets/image (1) (1).png>)，suiteKey为AppKey，请求网址为你的Dingraia\_php地址/secret.php
-3. 测试![](<../../../.gitbook/assets/image (2) (1).png>)
+2. token为![](<../../../.gitbook/assets/image (2) (1).png>)，encodingAesKey为![](<../../../.gitbook/assets/image (1) (1) (1).png>)，suiteKey为AppKey，请求网址为你的Dingraia\_php地址/secret.php
+3. 测试![](<../../../.gitbook/assets/image (2) (1) (1).png>)
 4. 如果成功了就拉个人进内部群，应该能在log4.json看到相关数据，下面是进群欢迎的代码
 
 ```php

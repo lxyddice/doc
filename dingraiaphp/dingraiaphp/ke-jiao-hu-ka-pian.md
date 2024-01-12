@@ -10,7 +10,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 
 ### 在顶栏选择开放能力-卡片平台-新建模板
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 填写相关信息后进入搭建平台
 
@@ -50,7 +50,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 
 #### 相关变量
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 做完了点右上发布，返回卡片列表就能看到卡片id喵
 
