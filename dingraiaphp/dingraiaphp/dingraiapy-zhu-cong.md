@@ -31,23 +31,6 @@ if ($bot_run_as['chat_mode'] == "dingraia_master") {
 //$bot_run_as['trueDingraiaAuth']为正确的主从验证密钥
 ```
 
-## 新版事件回调
-
-### 特点
-
-* 无需trueDingraiaAuth验证
-* 使用钉钉自带加解密
-
-### 使用方法
-
-制作中
-
-## TODO
-
-{% content-ref url="todo-list.md" %}
-[todo-list.md](todo-list.md)
-{% endcontent-ref %}
-
 ## 冰晶吐槽
 
 为什么不直接用py版本得了喵！
