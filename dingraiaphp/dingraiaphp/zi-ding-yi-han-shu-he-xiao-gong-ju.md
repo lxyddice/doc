@@ -382,3 +382,23 @@ requests_download_file(下载链接, 保存目录, 请求方式（可选，默�
 ```php
 iterateDictionary(array);
 ```
+
+#### 自定义错误
+
+v231210.1-Alpha新增
+
+```php
+DingraiaPHPResponseExit($errCode, $message = "Unkown Error", $m = null,$stop = true, $json = false)
+```
+
+errCode为http错误码，如 403
+
+message为退出标题，如 Forbidden
+
+m为退出消息，如 AuthKey is error
+
+stop为是否终止执行
+
+json为是否json输出，但如果get参数传入format=json时会使用json输出
+
+最终效果：![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (1).png>)

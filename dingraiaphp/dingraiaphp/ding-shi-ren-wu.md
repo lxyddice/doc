@@ -39,6 +39,26 @@ function DingraiaPHPRunCron() {
 
 任务加载后，会载入内存重复运行，因此要修改任务需要先终止再重开
 
+
+
+### 重启任务
+
+该方法为v231229.1-Alpha新增
+
+```php
+if (isset($_GET['cronRestart'])) {
+    DingraiaPHPCronRestart();
+}
+```
+
+## 定时重启
+
+#### w？
+
+开发者注意到bug，当php持续一段时间后会杀进程，因此让其一直持续的办法可能如此了
+
+
+
 ## 注意
 
 ### 方法
@@ -46,6 +66,8 @@ function DingraiaPHPRunCron() {
 `DingraiaPHPCron();//运行定时任务`
 
 `DingraiaPHPCronStop();//停止定时任务`
+
+`DingraiaPHPCronRestart();//重启定时任务`
 
 ### 防止重复运行
 

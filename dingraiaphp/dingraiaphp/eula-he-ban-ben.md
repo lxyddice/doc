@@ -35,7 +35,7 @@ Lxyddice https://lxyddice.top lxy@lxyddice.top
 
 ## 版本
 
-文档版本  v231104.1-alpha
+文档版本  v240112.1-alpha
 
 dingraia\_php开发版本 [https://api.lxyddice.top/dingbot/php/api/get?action=version](https://api.lxyddice.top/dingbot/php/api/get?action=version)
 
