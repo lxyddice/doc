@@ -4,7 +4,9 @@
 
 ### 1.下载启动器 首先，请确保您有一台能够流畅运行的电脑，且为64位或86位，这是为了确保您的电脑能够运行Java17。由于服务器安装了ViaVersion插件，您可以使用1.18.2---1.20.1的任何版本，随心所欲。如果您是第一次玩，我们推荐您下载并使用PCL2启动器。
 
-### 下载链接： https://ltcat.lanzoum.com/iCqgH11349ih&#x20;
+### 前往： [https://ltcat.lanzoum.com/iCqgH11349ih ](https://afdian.net/p/0164034c016c11ebafcb52540025c377)
+
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 ### 下载后，您将会得到一个压缩包，请自行解压（可以使用360解压或者7-zip等） 注意，请检查您的PCL2启动器和.minecraft文件夹位于同一文件夹之下，这是为了PCL2能够正常读取您的游戏数据。&#x20;
 
