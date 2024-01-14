@@ -14,4 +14,4 @@ description: 👋欢迎来到lxycraft～
 
 #### 如：可以编写插件配置文件、有新奇的点子等等...
 
-edit by lxyddice
+edit by BeefWine & lxyddice
