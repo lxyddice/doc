@@ -22,8 +22,6 @@
   * [自定义函数和小工具](dingraiaphp/dingraiaphp/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
   * [EULA和版本](dingraiaphp/dingraiaphp/eula-he-ban-ben.md)
   * [TODO LIST](dingraiaphp/dingraiaphp/todo-list.md)
-  * [旧版文档](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/README.md)
-    * [事件订阅](dingraiaphp/dingraiaphp/jiu-ban-wen-dang/shi-jian-ding-yue.md)
 
 ## 😃 lxycraft
 
@@ -67,6 +65,8 @@
 ## 丢弃文档 <a href="#deletepage" id="deletepage"></a>
 
 * [丢弃文档介绍](deletepage/diu-qi-wen-dang-jie-shao.md)
+* [DingraiaPHP旧版文档](deletepage/dingraiaphp-jiu-ban-wen-dang/README.md)
+  * [事件订阅](deletepage/dingraiaphp-jiu-ban-wen-dang/shi-jian-ding-yue.md)
 * [DingraiaPHP 但是让冰晶来讲述](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/README.md)
   * [开始使用啦awa](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/kai-shi-shi-yong-la-awa.md)
   * [哈哈\~这是自带命令喵，希望大人用得舒服\~](dingraiaphp/dingraiaphp-dan-shi-rang-bing-jing-lai-jiang-shu/ha-ha-zhe-shi-zi-dai-ming-ling-miao-xi-wang-da-ren-yong-de-shu-fu.md)
