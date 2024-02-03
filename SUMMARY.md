@@ -17,9 +17,10 @@
   * [Dingraia\_py主从](dingraiaphp/dingraiaphp/dingraiapy-zhu-cong.md)
   * [定时任务](dingraiaphp/dingraiaphp/ding-shi-ren-wu.md)
   * [外置插件](dingraiaphp/dingraiaphp/wai-zhi-cha-jian.md)
-  * [维护脚本](dingraiaphp/dingraiaphp/wei-hu-jiao-ben.md)
-  * [管理员页面](dingraiaphp/dingraiaphp/guan-li-yuan-ye-mian.md)
   * [自定义函数和小工具](dingraiaphp/dingraiaphp/zi-ding-yi-han-shu-he-xiao-gong-ju.md)
+  * [维护脚本](dingraiaphp/dingraiaphp/wei-hu-jiao-ben.md)
+  * [官方插件](dingraiaphp/dingraiaphp/guan-fang-cha-jian.md)
+  * [管理员页面](dingraiaphp/dingraiaphp/guan-li-yuan-ye-mian.md)
   * [EULA和版本](dingraiaphp/dingraiaphp/eula-he-ban-ben.md)
   * [TODO LIST](dingraiaphp/dingraiaphp/todo-list.md)
 
