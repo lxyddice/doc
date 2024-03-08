@@ -8,6 +8,10 @@ description: 这里的插件可能是前置/示例/好玩的插件，由开发�
 
 {% embed url="https://github.com/lxyddice/DingraiaPHP_offical" %}
 
+## 前排提示
+
+最近修改了很多插件的使用逻辑，此处可能不是最新的！请查阅上面的“插件社区”文档！
+
 ## 这是什么？
 
 看简介口牙！
