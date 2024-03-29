@@ -54,6 +54,7 @@
 * [注意事项](lxycraft/zhu-yi-shi-xiang/README.md)
   * [外置验证（未启用-测试）](lxycraft/zhu-yi-shi-xiang/wai-zhi-yan-zheng.md)
 * [更新日志](lxycraft/geng-xin-ri-zhi/README.md)
+  * [v240329.1-Alpha](lxycraft/geng-xin-ri-zhi/v240329.1-alpha.md)
   * [v240215-alpha](lxycraft/geng-xin-ri-zhi/v240215-alpha.md)
   * [v240214-alpha](lxycraft/geng-xin-ri-zhi/v240214-alpha.md)
   * [v240209-alpha](lxycraft/geng-xin-ri-zhi/v240209-alpha.md)
