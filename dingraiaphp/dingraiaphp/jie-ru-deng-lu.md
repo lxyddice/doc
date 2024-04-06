@@ -49,7 +49,7 @@ https://xxx.com/index.php?authCode=钉钉返回的token
 随后，你需要请求框架的API获取token和用户信息。地址为
 
 ```
-https://xxx.com/api/get.php?type=oauth2Get
+https://xxx.com/?action=api&type=oauth2Get
 &DingraiaPHPState=上面的唯一uuid
 &state=原始state
 &timeStamp=整秒时间戳
