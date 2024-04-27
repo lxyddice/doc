@@ -402,3 +402,45 @@ stop为是否终止执行
 json为是否json输出，但如果get参数传入format=json时会使用json输出
 
 最终效果：![](<../../.gitbook/assets/image (4).png>)![](<../../.gitbook/assets/image (1) (1) (1).png>)
+
+### v240426.1-Alpha 新增
+
+#### PDO相关-运行sql代码
+
+```php
+DingraiaPHP_pdoRunQuery($pdo, $sql, $params = array())
+```
+
+#### 创建临时登录
+
+```php
+DingraiaPHP_createTempDingtalkLogin($token, $uid);
+```
+
+uid是10001那个
+
+成功的话会返回uuid，请查看 接入登录 的相关教程获取登录数据
+
+此功能方便在机器人内 联动 其他使用 同一个 appId 的 钉钉OAuth2 的 网站快登录
+
+#### 外置插件-脚本运行末尾时运行函数
+
+```php
+DingraiaPHPAddEndModulePlugin($file, $fn_name);
+```
+
+file 是外置插件位置，fn\_name 是要运行的函数名
+
+比如
+
+```php
+DingraiaPHPAddEndModulePlugin("module/DingraiaPHP/plugin/iirose.php", "DingraiaPHPIiroseEnd");
+```
+
+#### 新增普通输出
+
+```php
+DingraiaPHPAddNormalResponse($key = null,$t,$newArray = false)
+                            //键          值 是否另起项
+```
+
