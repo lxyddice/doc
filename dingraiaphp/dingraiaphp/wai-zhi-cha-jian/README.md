@@ -81,7 +81,7 @@ function DingraiaPHPMaaArknightsMain($body, $conf) {
 
 汇报为 https://xxx.com/?MAAArknightsReportStatus
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 这时，可以在 plugin 文件夹（消息插件）继续开发了
 
@@ -144,5 +144,5 @@ if ($bot_run_as['chat_mode'] == "MAAArknightsReport") {
 
 ### 效果
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>炫耀（bushi</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>炫耀（bushi</p></figcaption></figure>
 

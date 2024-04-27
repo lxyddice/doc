@@ -50,7 +50,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 
 #### 相关变量
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 做完了点右上发布，返回卡片列表就能看到卡片id喵
 
