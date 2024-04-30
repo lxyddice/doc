@@ -23,6 +23,7 @@
   * [插件社区](dingraiaphp/dingraiaphp/cha-jian-she-qu/README.md)
     * [插件社区](dingraiaphp/dingraiaphp/cha-jian-she-qu/cha-jian-she-qu.md)
     * [官方插件](dingraiaphp/dingraiaphp/cha-jian-she-qu/guan-fang-cha-jian.md)
+  * [DingraiaPHP开发者](dingraiaphp/dingraiaphp/dingraiaphp-kai-fa-zhe.md)
   * [管理员页面](dingraiaphp/dingraiaphp/guan-li-yuan-ye-mian.md)
   * [用户页面](dingraiaphp/dingraiaphp/yong-hu-ye-mian.md)
   * [EULA和版本](dingraiaphp/dingraiaphp/eula-he-ban-ben.md)

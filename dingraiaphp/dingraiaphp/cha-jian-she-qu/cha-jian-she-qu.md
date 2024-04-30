@@ -14,7 +14,7 @@ description: 插件社区暂时只通过API上传代码，这是因为前端没�
 
 **Params**
 
-<table><thead><tr><th width="257">参数名</th><th>示例值</th><th>简介</th></tr></thead><tbody><tr><td>plugin</td><td><code>com.xxx.xx</code></td><td>插件包名</td></tr><tr><td>access_token</td><td><code>xxxxxxxxxxxx</code></td><td>插件开发者token</td></tr></tbody></table>
+<table><thead><tr><th width="257">参数名</th><th>示例值</th><th>简介</th></tr></thead><tbody><tr><td>plugin</td><td><code>com.xxx.xx</code></td><td>插件包名</td></tr><tr><td>token</td><td><code>xxxxxxxxxxxx</code></td><td>插件开发者token</td></tr></tbody></table>
 
 **Response**
 
@@ -68,3 +68,4 @@ description: 插件社区暂时只通过API上传代码，这是因为前端没�
 * 请不要冒充他人上传，包名和代码中的署名可以写您的代号
 * 违反国家法律法规、DingraiaPHP社区规则的代码，开发组有权封禁您的上传账号并清空相关的代码
 * 为了您的账号安全，请不要泄露您的上传账号的密码或OAuth2账号登录权
+* token获取方式请查看
