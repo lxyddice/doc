@@ -87,8 +87,6 @@
 
 <mark style="color:blue;">`GET`</mark> [`https://api.lxyddice.top/dingbot/php/?action=api&type=xyAppLoginWithDingtalkOAuth2`](https://api.lxyddice.top/dingbot/php/?action=api\&type=xyAppLoginWithDingtalkOAuth2\&state=5c5a3ff9-52bd-c49b-b05f-1bca6273fcd0)
 
-\<Description of the endpoint>
-
 **Params**
 
 | Name    | Type   | Description |
