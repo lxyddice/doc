@@ -1,10 +1,12 @@
 # DingraiaPHP开发者
 
-## 上一步得到的上一步得到的获取token
+## 开发者上一步得到的上一步得到的获取token
 
 ### 使用钉钉OAuth2登录
 
+#### 快速登录页面
 
+{% embed url="https://api.lxyddice.top/dingbot/php/?action=p&page=xyApp" %}
 
 ## 获取登录请求代码
 
@@ -198,6 +200,113 @@
     "message": "冰晶拒绝大人的请求(//̀Д/́/)",
     "result": null,
     "request_id": "1714491964_a8a0d13f-f4bd-0e2e-0f99-663dc6fe2977"
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+## 创建APP以便获取id和密钥
+
+<mark style="color:blue;">`GET`</mark> [<mark style="color:blue;">https://api.lxyddice.top/dingbot/php/?action=api\&type=xyAppGetId</mark>](https://api.lxyddice.top/dingbot/php/?action=api\&type=xyAppGetId\&token=IZHIMJoxx1Bq8oayDg5SEOPU0BAOPeBfuYQpTvsoaYX1sJU5SHfvHgTnDu8lxsjp)
+
+**Body**
+
+| Name    | Type   | Description |
+| ------- | ------ | ----------- |
+| `token` | string | AccessToken |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "success": true,
+    "code": 0,
+    "message": "API调用成功了喵~",
+    "result": [
+        {
+            "appId": "xxx",
+            "appSecret": "xxxxxxxx"
+        }
+    ],
+    "request_id": "1714633692_76398e1c-5f8e-7c35-9b00-c0ef41df64dd",
+    "apiPath": "xyAppGetId"
+}
+```
+{% endtab %}
+
+{% tab title="403" %}
+```json
+{
+    "success": false,
+    "code": -5,
+    "message": "冰晶拒绝大人的请求(//̀Д/́/)",
+    "result": null,
+    "request_id": "1714714263_8c358e28-3c93-4acf-32aa-70d561ae242f",
+    "apiPath": "xyAppGetId"
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+## 使用APPID和APPSECRET获取TOKEN
+
+<mark style="color:blue;">`GET`</mark> [`https://api.lxyddice.top/dingbot/php/?action=api&type=xyAppGetAccessToken`](https://api.lxyddice.top/dingbot/php/?action=api\&type=xyAppGetAccessToken)
+
+**Params**
+
+| Name        | Type   | Description |
+| ----------- | ------ | ----------- |
+| `appId`     | string | appId       |
+| `appSecret` | string | appSecret   |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "success": true,
+    "code": 0,
+    "message": "API调用成功了喵~",
+    "result": {
+        "token": "xxxxxxxxxxxxxxxxxxx",
+        "expiration": 1714645804,
+        "unionId": "xxxxx"
+    },
+    "request_id": "1714638604_123f7afb-409d-55d9-4059-27a70dfc408f",
+    "apiPath": "xyAppGetAccessToken"
+}
+```
+{% endtab %}
+
+{% tab title="403" %}
+```json
+{
+    "success": false,
+    "code": -5,
+    "message": "冰晶拒绝大人的请求(//̀Д/́/)",
+    "result": null,
+    "request_id": "1714714489_02bef3e2-f000-32bd-d8b0-c91481ee0c71",
+    "apiPath": "xyAppGetAccessToken"
+}
+```
+{% endtab %}
+
+{% tab title="404" %}
+```json
+{
+    "success": false,
+    "code": -6,
+    "message": "（翻找）没...没找到诶？TAT",
+    "result": null,
+    "request_id": "1714714496_ec9e6def-f66d-fdef-2349-78665396b2d7",
+    "apiPath": "xyAppGetAccessToken"
 }
 ```
 {% endtab %}
