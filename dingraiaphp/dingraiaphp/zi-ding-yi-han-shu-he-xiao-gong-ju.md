@@ -333,11 +333,11 @@ tool_log(等级, 内容);
 
 等级为
 
-* 1：Debug
-* 2：Info
-* 3：Warn
-* 4：Error
-* 5：Fatal
+* 0：Debug
+* 1：Info
+* 2：Warn
+* 3：Error
+* 4：Fatal
 
 #### 获取ogg文件时长毫秒
 

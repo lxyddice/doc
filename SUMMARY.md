@@ -26,7 +26,7 @@
   * [DingraiaPHP开发者](dingraiaphp/dingraiaphp/dingraiaphp-kai-fa-zhe.md)
   * [管理员页面](dingraiaphp/dingraiaphp/guan-li-yuan-ye-mian.md)
   * [用户页面](dingraiaphp/dingraiaphp/yong-hu-ye-mian.md)
-  * [Page](dingraiaphp/dingraiaphp/page.md)
+  * [日志与调试](dingraiaphp/dingraiaphp/ri-zhi-yu-tiao-shi.md)
   * [EULA和版本](dingraiaphp/dingraiaphp/eula-he-ban-ben.md)
   * [TODO LIST](dingraiaphp/dingraiaphp/todo-list.md)
 
