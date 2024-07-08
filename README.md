@@ -10,6 +10,6 @@ description: 欢迎来到lxyddice的文档
 
 ### [提交一个issue](https://github.com/lxyddice/doc/issues)
 
-### 通过邮件lxy@lxyddice.top
+### 通过邮件 -> lxy@lxyddice.top
 
 ### 文档开源地址[https://github.com/lxyddice/doc/tree/gitbook](https://github.com/lxyddice/doc/tree/gitbook)
