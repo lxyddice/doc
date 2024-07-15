@@ -444,3 +444,22 @@ DingraiaPHPAddNormalResponse($key = null,$t,$newArray = false)
                             //键          值 是否另起项
 ```
 
+#### logger &#x20;
+
+v240715-Alpha 更新
+
+这个logger可以把调试信息webhook到指定网址，推荐配合py写的接收器食用
+
+```php
+$bot_run_as["logger"]["class"]->日志等级(日志内容)
+```
+
+等级：
+
+* trace
+* debug
+* info
+* warning
+* error
+* critical
+* success
