@@ -40,4 +40,4 @@
 
 您可以在此处获取2FA相关的API
 
-{% embed url="https://mc.lxyddice.top/lxyddice/doc/DingraiaPHPApi.html#/htmlAdmin%E5%86%85%E7%BD%AE%E6%8F%92%E4%BB%B6API%2F%E9%9C%80%E7%99%BB%E5%BD%95Session%EF%BC%88%E5%8F%AA%E9%80%82%E5%90%88html%E5%86%85%E8%AF%B7%E6%B1%82%EF%BC%89/get__type_htmlAdmin_create2FA_Account" %}
+{% embed url="https://api.lxyddice.top/dingbot/php/?action=p&page=apiDoc#/htmlAdmin%E5%86%85%E7%BD%AE%E6%8F%92%E4%BB%B6API%2F%E9%9C%80%E7%99%BB%E5%BD%95Session%EF%BC%88%E5%8F%AA%E9%80%82%E5%90%88html%E5%86%85%E8%AF%B7%E6%B1%82%EF%BC%89/get__type_htmlAdmin_check2FA_Account" %}

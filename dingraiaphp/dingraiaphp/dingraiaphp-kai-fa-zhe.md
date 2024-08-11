@@ -105,12 +105,13 @@
     "code": 0,
     "message": "API调用成功了喵~",
     "result": {
-        "state": "d1a906af-2ee0-f51d-6ada-6d1e11de1e44",
-        "createAt": 1714491489,
-        "timeStampe": 1714491494,
-        "location": "https://api.lxyddice.top/dingbot/php/?client_id=dinggjnytfoiy3lgfi3q&state=5c5a3ff9-52bd-c49b-b05f-1bca6273fcd0&redirect_uri=https%3A%2F%2Fapi.lxyddice.top%2Fdingbot%2Fphp%2F%3Faction%3Dapi%26type%3DxyAppLoginWithDingtalkOAuth2_2"
+        "state": "a95bb8c2-b084-869c-d76f-52ba5da21309",
+        "createAt": 1723393731,
+        "timeStampe": 1723393732,
+        "urlId": "ANVpQjLH"
     },
-    "request_id": "1714491494_2487cd33-3334-fa05-ae62-3d4b24becb71"
+    "request_id": "1723393732_46e5bcdd-908c-e23c-298f-04bbf8e25a2d",
+    "apiPath": "xyAppLoginWithDingtalkOAuth2"
 }
 ```
 {% endtab %}
@@ -124,6 +125,48 @@
     "result": null,
     "request_id": "1714491585_710721ef-04ee-7d06-d6be-dc3cdb47e1f0",
     "tips": "不存在登录请求 State:d1a906af-2ee0-f51d-6ada-6d1e11de1e44"
+}
+```
+{% endtab %}
+{% endtabs %}
+
+## 获取钉钉登录的跳转地址
+
+<mark style="color:blue;">`GET`</mark> [https://api.lxyddice.top/dingbot/php/?action=api\&type=getShortUrlInfo](https://api.lxyddice.top/dingbot/php/?action=api\&type=getShortUrlInfo)
+
+**Params**
+
+| Name | Type   | Description  |
+| ---- | ------ | ------------ |
+| `id` | string | urlId  短链接代码 |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "success": true,
+    "code": 0,
+    "message": "API调用成功了喵~",
+    "result": {
+        "url": "http://api.lxyddice.top/dingbot/php/?client_id=xxxxx"
+    },
+    "request_id": "1723393746_5a1e2650-b635-7272-5983-d60f2292c8ae",
+    "apiPath": "getShortUrlInfo"
+}
+```
+{% endtab %}
+
+{% tab title="404" %}
+```json
+{
+    "success": false,
+    "code": -6,
+    "message": "（翻找）没...没找到诶？TAT",
+    "result": null,
+    "request_id": "1723393846_b1fd2cb2-034b-5b09-aee6-fc5c36d6fe6f",
+    "apiPath": "getShortUrlInfo"
 }
 ```
 {% endtab %}
@@ -156,7 +199,7 @@
     "message": "冰晶拒绝大人的请求(//̀Д/́/)",
     "result": null,
     "request_id": "1714491720_5776f845-6c59-546d-02c6-5666a051c5fc",
-    "tips": "很遗憾，您似乎不具备钉钉登录获取开发者token的权限~ unionId:ff9P1GOgF53vdK8nD9WKlQiEiE"
+    "tips": "很遗憾，您似乎不具备钉钉登录获取开发者token的权限~ unionId:xxx"
 }
 ```
 {% endtab %}
