@@ -19,7 +19,7 @@
 
 `酷应用id：`
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../../.gitbook/assets/image (64).png>)
 
 ## config/group.json
 
@@ -41,4 +41,4 @@
 
 ### 接下来是一些插件开发以及自带方法
 
-[fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md](fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md "mention")
+[fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md](../fa-song-shi-yong-webhook-de-pu-tong-xiao-xi.md "mention")

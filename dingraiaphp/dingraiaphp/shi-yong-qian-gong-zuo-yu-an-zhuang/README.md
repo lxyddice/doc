@@ -70,4 +70,4 @@ location ~* ^/.*.(json|.txt|.yml|.cfg)$
 
 安装成功后即可前往下一个页面
 
-[zi-dai-ming-ling.md](../zi-dai-ming-ling.md "mention")
+[zi-dai-ming-ling.md](../pei-zhi-ji-qi-ren/zi-dai-ming-ling.md "mention")
