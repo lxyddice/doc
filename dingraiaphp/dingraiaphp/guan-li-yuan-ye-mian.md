@@ -6,13 +6,13 @@
 
 如果在 config/bot.json 中 indexDefault 为 1 的话，直接访问框架首页，您应该能看见此页面
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 点击框中人的图标即可进入管理员页面
 
 若没有开启此选项，您也可以手动添加查询参数 action=admin 进入
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 用户名和密码在 在 config/bot.json 中的 htmlAdmin 内
 

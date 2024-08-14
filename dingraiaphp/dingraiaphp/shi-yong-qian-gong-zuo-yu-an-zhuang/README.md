@@ -1,5 +1,41 @@
 # 使用前工作与安装
 
+## 新版
+
+### 推荐环境
+
+* PHP 7.0-7.485
+* \-pfppm
+* MYSQL 5.0+ （非必须）
+* vps或虚拟主机，后者需要可以编辑黑名单URL或站点配置文件
+
+### 必须操作
+
+* 禁止.json、.txt、.yml、.lock、.cfg 文件的访问
+
+黑名单URL
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+nginx配置
+
+```
+location ~* ^/.*.(json|.txt|.yml|.cfg)$
+{
+    return 404;
+}
+```
+
+### 接下来呢？
+
+检查 install 文件夹内的 config.php，如果需要连接mysql请配置，否则应该按默认即可
+
+### 然后...
+
+导航到 你的域名/index.php 看看是否有报错，
+
+## 旧版
+
 ### 虽然有一键安装，但是不确保可以正常工作
 
 #### 推荐环境：

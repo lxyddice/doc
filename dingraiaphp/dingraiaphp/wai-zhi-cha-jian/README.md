@@ -81,7 +81,7 @@ function DingraiaPHPMaaArknightsMain($body, $conf) {
 
 汇报为 https://xxx.com/?MAAArknightsReportStatus
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 这时，可以在 plugin 文件夹（消息插件）继续开发了
 
