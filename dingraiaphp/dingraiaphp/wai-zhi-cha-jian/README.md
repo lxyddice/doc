@@ -63,7 +63,7 @@ function DingraiaPHPGithubWebhookEnd() {
 }
 ```
 
-plugin/com.lxyddice.githubWebhook.php\<?php
+plugin/com.lxyddice.githubWebhook.php
 
 ```php
 <?php
