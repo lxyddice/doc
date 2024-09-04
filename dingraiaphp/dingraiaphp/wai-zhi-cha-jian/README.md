@@ -16,7 +16,6 @@ description: v240112.1-Alpha新增
 
 module/DingraiaPHP/plugin/githubWebhook.php
 
-````php
 ```php
 <?php
 function DingraiaPHPGithubWebhookMain($b, $c) {
@@ -63,11 +62,9 @@ function DingraiaPHPGithubWebhookEnd() {
     }
 }
 ```
-````
 
-plugin/com.lxyddice.githubWebhook.php
+plugin/com.lxyddice.githubWebhook.php\<?php
 
-````php
 ```php
 <?php
 if (isset($bot_run_as)) {
@@ -257,27 +254,23 @@ if (isset($bot_run_as)) {
             }
         }
     }
+
 ```
-````
 
 把代码丢进指定文件夹，随后直接运行一次框架生成配置文件
 
 打开 data/com.lxyddice.githubWebhook/config.json
 
-````json
 ```json
 {"sendWebhooks":["钉钉机器人的webhook"],"secret":"密钥"}
 ```
-````
 
 打开 config/module/plugins.json
 
-<pre class="language-json"><code class="lang-json">```json
-[
-    {"getParams":["githubWebhook"], "requireFile": ["module/DingraiaPHP/plugin/githubWebhook.php"], "chatMode":"gbwh", "start":"DingraiaPHPGithubWebhookMain"}
+<pre class="language-json"><code class="lang-json"><strong>[
+</strong>    {"getParams":["githubWebhook"], "requireFile": ["module/DingraiaPHP/plugin/githubWebhook.php"], "chatMode":"gbwh", "start":"DingraiaPHPGithubWebhookMain"}
 <strong>]
-</strong>```
-</code></pre>
+</strong></code></pre>
 
 现在直接写配置文件就好了，不需要改 main.php 的源代码手动引入
 
