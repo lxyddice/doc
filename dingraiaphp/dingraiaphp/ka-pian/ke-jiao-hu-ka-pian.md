@@ -10,7 +10,7 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 
 ### 在顶栏选择开放能力-卡片平台-新建模板
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 填写相关信息后进入搭建平台
 
@@ -18,39 +18,39 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 
 ### 下面以我的机器人的菜单为示例（菜勿喷，谢谢你QAQ）：
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 开头是markdown内容，如下
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 第二行为点击按钮后文字会改变，mode为false表示当后面传入的变量为false时，才会显示
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="277"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="277"><figcaption></figcaption></figure>
 
 下面说四个竖排按钮，每个按钮不同的功能
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### 回传请求
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 也就是当群u点击卡片的“用户帮助”时，钉钉服务器会向我们回调路由（后面有讲）post一段回传请求，包含了一段json为"content":{"bot\_help\_v1":"userhelp"}，我们就能知道群u点了什么东西
 
 #### 跳转链接
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 我们想要群u点击按钮后隐藏按钮，则相对于上面的第二行为点击按钮后文字会改变
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 也就是群u点击后我们的服务器通过api请求变量mode变为false，则实现隐藏
 
 #### 相关变量
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 做完了点右上发布，返回卡片列表就能看到卡片id喵
 
@@ -97,11 +97,11 @@ cardParamMap是指文本类型变量替换，多媒体类型自己看钉钉文�
 
 我们接收到了回调来的数据，可以用更新卡片来对群u作出回应。如图所示：
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 点击“用户帮助”
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 为了区分普通消息与卡片回调，框架内代码做了切割。
 
@@ -129,7 +129,7 @@ update_interactiveCards($token,卡片唯一id，即上文$cid, 卡片更新后�
 
 cardParamMap与上面发送的语法相同
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>点击“启动原神”，服务器收到了$content['同意'] == 1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>点击“启动原神”，服务器收到了$content['同意'] == 1</p></figcaption></figure>
 
 ```php
 if ($content['bot_help_v1'] == 'userhelp') {

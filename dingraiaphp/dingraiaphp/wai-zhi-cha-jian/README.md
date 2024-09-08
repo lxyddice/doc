@@ -22,15 +22,11 @@ function DingraiaPHPGithubWebhookMain($b, $c) {
     global $bot_run_as;
     global $hideLoadPluginInfo_B;
     
-    $hideLoadPluginInfo_B = 1;
-    $hideLoadPluginInfo = 1;
-    $bot_run_as['config']['notSendDefault'] = 1;
-    $bot_run_as['config']['index_hide_load'] = 1;
+    $bot_run_as["config"]["hideAllEcho"] = 1;
     
     $githubSecret = read_file_to_array("data/com.lxyddice.githubWebhook/config.json")["secret"];
     $bot_run_as["chat_mode"] = "gbwh";
     $bot_run_as["callbackContent"] = $b;
-    $bot_run_as['plugin']['index_hide_load'] = 1;
     $bot_run_as["callbackContent"]["header"] = getallheaders();
 
     DingraiaPHPAddEndModulePlugin("module/DingraiaPHP/plugin/githubWebhook.php", "DingraiaPHPGithubWebhookEnd");
@@ -41,7 +37,6 @@ function DingraiaPHPGithubWebhookMain($b, $c) {
     
     if (!hash_equals($signature, $calculatedSignature)) {
         $bot_run_as["verify"] = false;
-        write_to_file_json("data/com.lxyddice.githubWebhook/vf.json",[$signature_sha1, $bot_run_as["callbackContent"]["header"]["X-Hub-Signature-256"], $githubSecret]);
         $bot_run_as["response"] = ["code" => 403, "message" => "Forbidden"];
         return $b;
     }
@@ -54,12 +49,7 @@ function DingraiaPHPGithubWebhookEnd() {
     global $bot_run_as;
     $back = $bot_run_as["response"];
     $back["request_id"] =  $bot_run_as["RUN_ID"];
-    header('Content-Type:application/json; charset=utf-8');
-    if ($bot_run_as["response"]["status"] == 0) {
-        echo(json_encode($back));
-    } else {
-        echo(json_encode($bot_run_as["response"]));
-    }
+    write_to_file_json("data/bot/app/response.json", ["type"=>"json", "content"=>$back]);
 }
 ```
 
@@ -149,7 +139,7 @@ if (isset($bot_run_as)) {
                 $commits = $bot_run_as['callbackContent']['commits'];
                 $ref = $bot_run_as['callbackContent']['ref'];
                 $repository['name'] = $repository['full_name'];
-                $msg = "[{$repository['name']}]({$repository['html_url']}) New push by [{$pusher['name']}]({$pusher['html_url']})\n\nRef: {$ref}\n\n";
+                $msg = "[{$repository['name']}]({$repository['html_url']}) New push by [{$pusher['name']}]({$bot_run_as['callbackContent']['sender']['html_url']})\n\nRef: {$ref}\n\n";
                 foreach ($commits as $commit) {
                     $msg .= "[".substr($commit['id'], 0, 7)."...]({$commit['url']}) {$commit['message']} by [{$commit['author']['name']}]({$commit['author']['email']})\n\n";
                 }
@@ -254,7 +244,6 @@ if (isset($bot_run_as)) {
             }
         }
     }
-
 ```
 
 把代码丢进指定文件夹，随后直接运行一次框架生成配置文件
@@ -357,7 +346,7 @@ function DingraiaPHPMaaArknightsMain($body, $conf) {
 
 汇报为 https://xxx.com/?MAAArknightsReportStatus
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 这时，可以在 plugin 文件夹（消息插件）继续开发了
 

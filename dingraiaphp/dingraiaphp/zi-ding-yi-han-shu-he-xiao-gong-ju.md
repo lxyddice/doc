@@ -401,7 +401,7 @@ stop为是否终止执行
 
 json为是否json输出，但如果get参数传入format=json时会使用json输出
 
-最终效果：![](<../../.gitbook/assets/image (4).png>)![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+最终效果：![](<../../.gitbook/assets/image (4).png>)![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 ### v240426.1-Alpha 新增
 
