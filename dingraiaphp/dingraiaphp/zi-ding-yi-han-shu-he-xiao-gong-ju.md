@@ -381,8 +381,8 @@ groupMessages_recall_v2($token,$robotCode, 群id, 撤回时间, 内部消息id);
 
 #### 撤回单聊消息
 
-```
-// Some code
+```php
+function userMessages_recall($token, 无用随意传,$robotCode, 撤回时间, 内部消息id)
 ```
 
 #### 下载内容
@@ -397,7 +397,7 @@ requests_download_file(下载链接, 保存目录, 请求方式（可选，默�
 
 返回save\_data则为相对路径，如  data/download/pixiv/114514.png
 
-#### 轮询字典（无用）
+#### 轮询并输出字典（无用）
 
 ```php
 iterateDictionary(array);
@@ -504,5 +504,61 @@ DingraiaPHPCheckWarningWord("xxx");
 
 ```php
 DingraiaPHPCheckWarningWord(要检测的违禁词);
+```
+
+app\_json\_file\_add\_list 往运行日志里拉依托（）
+
+```php
+app_json_file_add_list($fp, $t)
+```
+
+```php
+app_json_file_add_list(运行日志位置，通常是$bot_run_as["RUN_LOG_FILE"], 要新增的内容，字典)
+```
+
+upload\_to\_dingtalk\_v2 上传媒体文件到钉钉
+
+缓存机制为一个月，以文件位置为主键
+
+```php
+upload_to_dingtalk_v2($type, $file, $token)
+```
+
+```php
+upload_to_dingtalk_v2(文件类型，如voice video, 文件位置, $token)
+```
+
+normalizeArrayFormat 把神金的字典转换为数组
+
+在生活中，我们可能会遇到
+
+```json
+{
+	"0": [],
+	"1:": "我超！粥！",
+	"2": {
+		"我喜欢玉足": true
+	}
+}
+```
+
+这样很神金的json
+
+此时可以调用
+
+```php
+normalizeArrayFormat($arr)
+```
+
+把它变为
+
+```json
+[
+	[],
+	"我超！粥！",
+	{
+		"我喜欢玉足": true
+	}
+]
 ```
 
