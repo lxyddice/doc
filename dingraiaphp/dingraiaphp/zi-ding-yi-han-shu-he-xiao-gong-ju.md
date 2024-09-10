@@ -100,6 +100,14 @@ mute_user(禁言时间（毫秒）, 群id, userid, accessToken);
 unmute_user(群id, userid, accessToken);
 ```
 
+从unionid查询userid
+
+```php
+getbyunionid($unionid, $token)
+```
+
+
+
 获取accessToken
 
 ```php
@@ -164,7 +172,7 @@ op(群id,userid（数组）,accessToken);
 deop(群id,userid（数组）,accessToken);
 ```
 
-#### 创建群
+#### 创建模板群
 
 ```php
 create_group(accessToken, 群头像id, 群模板id, 群名, 群主userid, 管理员userid,群成员userid（数组）);
@@ -218,7 +226,7 @@ kick(accessToken,userid,群id);
 
 ```php
 $res = requests("GET","https://api.lxyddice.top/api/gk")['body'];//返回响应体
-$res = requests("POST", "https://api.lxyddice.top/api/gk", $data)['code'];//返回响应头
+$res = requests("POST", "https://api.lxyddice.top/api/gk", $data)['code'];//返回响应码
 ```
 
 ```php
@@ -226,6 +234,12 @@ requests(请求方法, url, 请求体, 请求头, 超时时间);
 ```
 
 小提示：默认的data不会转为json，要i的话请添加在header内添加`["Content-Type" => "application/json"]`
+
+#### requests下载
+
+```php
+$res = requests_download_file("GET","data/download（文件夹）","https://xxx.com")['saved_file'];//返回下载位置
+```
 
 #### 格式化ymd时间
 
@@ -359,10 +373,16 @@ check_group_permission(群id, 权限名);
 uuid();
 ```
 
-#### 撤回消息
+#### 撤回群消息
 
 ```php
 groupMessages_recall_v2($token,$robotCode, 群id, 撤回时间, 内部消息id);
+```
+
+#### 撤回单聊消息
+
+```
+// Some code
 ```
 
 #### 下载内容
@@ -385,7 +405,7 @@ iterateDictionary(array);
 
 #### 自定义错误
 
-v231210.1-Alpha新增
+### v231210.1-Alpha 新增
 
 ```php
 DingraiaPHPResponseExit($errCode, $message = "Unkown Error", $m = null,$stop = true, $json = false)
@@ -446,7 +466,7 @@ DingraiaPHPAddNormalResponse($key = null,$t,$newArray = false)
 
 #### logger &#x20;
 
-v240715-Alpha 更新
+### v240715-Alpha 新增
 
 这个logger可以把调试信息webhook到指定网址，推荐配合py写的接收器食用
 
@@ -463,3 +483,26 @@ $bot_run_as["logger"]["class"]->日志等级(日志内容)
 * error
 * critical
 * success
+
+### v240911-Alpha 新增与忘记写文档时补上
+
+org\_delete\_user 企业删除用户
+
+```php
+org_delete_user($token, $userid);
+```
+
+```php
+org_delete_user(token, 要删除的用户id);
+```
+
+DingraiaPHPCheckWarningWord 拦截webhook返回消息时检查有没有违禁词
+
+```php
+DingraiaPHPCheckWarningWord("xxx");
+```
+
+```php
+DingraiaPHPCheckWarningWord(要检测的违禁词);
+```
+
