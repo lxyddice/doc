@@ -562,3 +562,15 @@ normalizeArrayFormat($arr)
 ]
 ```
 
+### v240913-Alpha更新
+
+短链接还原
+
+```php
+$bot["tools"]->shortUrlReduction($url);
+
+DingraiaPHPTools::shortUrlReduction($url);
+
+//返回为长链接，失败为false
+```
+
