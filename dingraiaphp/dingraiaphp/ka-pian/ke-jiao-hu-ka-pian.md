@@ -1,8 +1,105 @@
 ---
-description: 这玩意多少有点抽象，并且已实现功能很少，请酌情使用。下面一步步教如何使用qwq
+description: 完善了！能用！（
 ---
 
 # 可交互卡片
+
+## v240913-Alpha更新
+
+### 创建卡片
+
+```php
+create_AI_interactiveCards($token, 
+$cardData, 
+$outTrackId = null, 
+$cardTemplateId = "xxx", 
+$cardOptions = ["imGroupOpenSpaceModel" => ["supportForward" => false]]
+);
+```
+
+```php
+/*
+token是钉钉accessToken
+cardData是参数，上面设置了content变量是输出的内容，所以我们应该设置 ["content"=>打算输出的内容]
+outTrackId是卡片唯一ID，如果传null则自动生成
+cardTemplateId是模板ID，记得写，框架默认的是我在用的，听说可以跨企业用，挺基础的起码能用
+cardOptions是卡片设置，会自动添加到最终请求API的body里，框架默认禁止转发（IM群组）
+*/
+```
+
+```php
+//返回为一个数组
+[$res, $outTrackId]
+//res为API返回
+//outTrackId为唯一ID
+```
+
+### 投放卡片
+
+```php
+deliver_AI_interactiveCards($token, 
+$outTrackId, 
+$openSpaceId, 
+$cardOptions = []
+);
+```
+
+```php
+/*
+token不用我多说了吧喵（
+outTrackId是卡片唯一ID，应该和上面的一致
+openSpaceId是场域ID，请自行参考钉钉开发者文档关于它的描述
+cardOptions是卡片设置，会自动添加到最终请求API的body里
+*/
+```
+
+```php
+//返回为一个数组
+[$res, $outTrackId]
+//res为API返回
+//outTrackId为唯一ID
+```
+
+### 更新卡片
+
+假设你设置了回调请求，并且看了下面了知道怎么取得参数
+
+```php
+$res = update_interactiveCards_v2($token,
+$bot['outTrackId'], 
+["cardData"=>[
+    "cardParamMap"=>[
+        "hideButton"=>"0", "info"=>$t, "isJoin"=>"0", "avatar"=>$data['mediaId'], "title"=>$data['name']."发起了抽奖活动~", "endTime"=>(string)($data['endTime'] * 1000)]
+    ], 
+    "privateData"=>[
+        $bot['userId']=>[
+            "cardParamMap"=>[
+                "isJoin"=>"1", "tips"=>"您已参与此抽奖~"
+            ]
+        ]
+    ],"cardUpdateOptions"=>[
+        "updateCardDataByKey"=>true, 
+            "updatePrivateDataByKey"=>true
+        ]
+    ]
+);
+```
+
+```php
+/*
+token不用我多说了吧喵（
+$bot['outTrackId']是卡片唯一ID，应该和上面的一致，这里是从回调请求中取回的参数
+第三个参数是卡片额外参数，会自动添加到最终请求API的body里，比如公有变量、私有变量、卡片设置等
+*/
+```
+
+```php
+//返回为一个数组
+[$res, $outTrackI, $data]
+//res为API返回
+//outTrackId为唯一ID
+//data为请求API时的body
+```
 
 ## 发送卡片
 
@@ -142,11 +239,11 @@ if ($content['bot_help_v1'] == 'userhelp') {
 ## 卡片回调模式下取得参数
 
 ```php
-$bot_run_as['userId'] //触发回调的userid
+$bot['userId'] //触发回调的userid
 ```
 
 ```php
-$conversationId //触发回调的群组id
+$conversationId //触发回调的群组id （已删除，因为钉钉不再提供）
 ```
 
 ## 撤回、返回普通消息以及card日志利用
@@ -191,4 +288,4 @@ send_message(json_encode($content),$sdlog[$bot_run_as['outTrackId']]['webhook'],
 
 ### 温馨提示
 
-1. 如果按钮一直存在可能会有『坏家伙』一直乱点消耗api量，请注意
+1. 如果按钮一直存在可能会有『坏家伙』一直乱点消耗webhook量，请注意

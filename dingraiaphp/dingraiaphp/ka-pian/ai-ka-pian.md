@@ -1,5 +1,5 @@
 ---
-description: 这玩意多少有点抽象，并且已实现功能很少，请酌情使用。下面一步步教如何使用qwq
+description: 能用！
 ---
 
 # AI卡片
@@ -23,12 +23,12 @@ description: 这玩意多少有点抽象，并且已实现功能很少，请酌�
 #### 创建卡片（API
 
 ```php
-function create_AI_interactiveCards($token, 
+create_AI_interactiveCards($token, 
 $cardData, 
 $outTrackId = null, 
 $cardTemplateId = "8f250f96-da0f-4c9f-8302-740fa0ced1f5.schema", 
 $cardOptions = ["imGroupOpenSpaceModel" => ["supportForward" => false]]
-) {
+);
 ```
 
 ```php
@@ -51,11 +51,11 @@ cardOptions是卡片设置，会自动添加到最终请求API的body里，框�
 #### 投放卡片（API
 
 ```php
-function deliver_AI_interactiveCards($token, 
+deliver_AI_interactiveCards($token, 
 $outTrackId, 
 $openSpaceId, 
 $cardOptions = []
-) {
+);
 ```
 
 ```php
@@ -77,7 +77,7 @@ cardOptions是卡片设置，会自动添加到最终请求API的body里
 #### 更新AI卡片（API
 
 ```php
-function streaming_AI_interactiveCards($token, 
+streaming_AI_interactiveCards($token, 
 $outTrackId, 
 $key, 
 $content, 
@@ -85,7 +85,7 @@ $guid = null,
 $isFull = true, 
 $isFinalize = false,
 $isError = false
-) {
+);
 ```
 
 ```php
@@ -108,7 +108,7 @@ isError是是否为出错模式
 //outTrackId为唯一ID
 ```
 
-### 使用例
+### 食用例
 
 ```php
 if ($globalmessage == "aitest") {
