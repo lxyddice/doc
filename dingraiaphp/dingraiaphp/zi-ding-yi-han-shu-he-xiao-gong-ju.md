@@ -562,6 +562,12 @@ normalizeArrayFormat($arr)
 ]
 ```
 
+useRobotcode2Corpid 从robotCode得到组织ID
+
+```php
+useRobotcode2Corpid($robotCode);
+```
+
 ### v240913-Alpha更新
 
 短链接还原
